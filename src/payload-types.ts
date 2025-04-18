@@ -72,6 +72,7 @@ export interface Config {
     recipes: Recipe;
     'cocktail-recipes': CocktailRecipe;
     'cocktail-prep-items': CocktailPrepItem;
+    'cocktail-batch-recipes': CocktailBatchRecipe;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
     'payload-migrations': PayloadMigration;
@@ -83,6 +84,7 @@ export interface Config {
     recipes: RecipesSelect<false> | RecipesSelect<true>;
     'cocktail-recipes': CocktailRecipesSelect<false> | CocktailRecipesSelect<true>;
     'cocktail-prep-items': CocktailPrepItemsSelect<false> | CocktailPrepItemsSelect<true>;
+    'cocktail-batch-recipes': CocktailBatchRecipesSelect<false> | CocktailBatchRecipesSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
@@ -168,11 +170,14 @@ export interface Recipe {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs';
+        unit: 'g' | 'oz' | 'ea' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs';
         qty: number;
+        isSubRecipe?: boolean | null;
+        linkedRecipe?: (number | null) | Recipe;
         id?: string | null;
       }[]
     | null;
+  yield?: string | null;
   images?:
     | {
         image: number | Media;
@@ -258,6 +263,35 @@ export interface CocktailPrepItem {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "cocktail-batch-recipes".
+ */
+export interface CocktailBatchRecipe {
+  id: number;
+  name: string;
+  method?: string | null;
+  ingredients?:
+    | {
+        ingredient: string;
+        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs';
+        qty: number;
+        isSubRecipe?: boolean | null;
+        linkedRecipe?: (number | null) | CocktailPrepItem;
+        id?: string | null;
+      }[]
+    | null;
+  yield?: string | null;
+  images?:
+    | {
+        image: number | Media;
+        caption?: string | null;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-locked-documents".
  */
 export interface PayloadLockedDocument {
@@ -282,6 +316,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'cocktail-prep-items';
         value: number | CocktailPrepItem;
+      } | null)
+    | ({
+        relationTo: 'cocktail-batch-recipes';
+        value: number | CocktailBatchRecipe;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -373,8 +411,11 @@ export interface RecipesSelect<T extends boolean = true> {
         ingredient?: T;
         unit?: T;
         qty?: T;
+        isSubRecipe?: T;
+        linkedRecipe?: T;
         id?: T;
       };
+  yield?: T;
   images?:
     | T
     | {
@@ -433,6 +474,34 @@ export interface CocktailRecipesSelect<T extends boolean = true> {
  * via the `definition` "cocktail-prep-items_select".
  */
 export interface CocktailPrepItemsSelect<T extends boolean = true> {
+  name?: T;
+  method?: T;
+  ingredients?:
+    | T
+    | {
+        ingredient?: T;
+        unit?: T;
+        qty?: T;
+        isSubRecipe?: T;
+        linkedRecipe?: T;
+        id?: T;
+      };
+  yield?: T;
+  images?:
+    | T
+    | {
+        image?: T;
+        caption?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "cocktail-batch-recipes_select".
+ */
+export interface CocktailBatchRecipesSelect<T extends boolean = true> {
   name?: T;
   method?: T;
   ingredients?:

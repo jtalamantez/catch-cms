@@ -17,6 +17,7 @@ import { Media } from './collections/Media'
 import { Recipes } from './collections/Recipes'
 import { CocktailRecipes } from './collections/CocktailRecipes'
 import { CocktailPrepItems } from './collections/CocktailPrep'
+import { CocktailBatchItems } from './collections/CocktailBatch'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -28,7 +29,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Recipes, CocktailRecipes, CocktailPrepItems],
+  collections: [Users, Media, Recipes, CocktailRecipes, CocktailPrepItems, CocktailBatchItems],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

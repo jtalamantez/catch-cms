@@ -1,10 +1,10 @@
 import type { CollectionConfig } from 'payload'
 
-export const Recipes: CollectionConfig = {
-  slug: "recipes",
+export const CocktailBatchItems: CollectionConfig = {
+  slug: "cocktail-batch-recipes",
   labels: {
-    singular: "Recipe",
-    plural: "Recipes",
+    singular: "Beverage - Batch Recipe",
+    plural: "Beverage - Bactch Recipes",
   },
   admin: {
     useAsTitle: 'name',
@@ -22,14 +22,9 @@ export const Recipes: CollectionConfig = {
       required: true,
     },
     {
-      name: "dropPhrase",
-      type: "text",
-      required: false,
-    },
-    {
-      name: "method",
-      type: "textarea",
-      required: false,
+        name: "method",
+        type: "textarea",
+        required: false,
     },
     {
       name: "ingredients",
@@ -43,7 +38,7 @@ export const Recipes: CollectionConfig = {
         {
           name: "unit",
           type: "select",
-          options: ["g", "oz", "ea", "kg", "ml", "l", "tsp", "gal", "tbsp", "cup", "pcs"], // Customize as needed
+          options: ["g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs"], // Customize as needed
           required: true,
         },
         {
@@ -51,7 +46,7 @@ export const Recipes: CollectionConfig = {
           type: "number",
           required: true,
           min: 0.01,
-        },
+        },  
         {
             name: "isSubRecipe",
             type: "checkbox",
@@ -61,12 +56,12 @@ export const Recipes: CollectionConfig = {
         {
             name: "linkedRecipe",
             type: "relationship",
-            relationTo: "recipes",
+            relationTo: "cocktail-prep-items",
             label: "Select sub-recipe",
             admin: {
               condition: (_, siblingData) => siblingData.isSubRecipe === true,
-            },  
-        }
+            },        
+        }  
       ],
     },
     {
