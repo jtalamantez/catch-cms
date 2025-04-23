@@ -22,11 +22,6 @@ export const CocktailRecipes: CollectionConfig = {
       required: true,
     },
     {
-      name: "dropPhrase",
-      type: "text",
-      required: false,
-    },
-    {
       name: "method",
       type: "textarea",
       required: false,
@@ -71,7 +66,7 @@ export const CocktailRecipes: CollectionConfig = {
         {
             name: "linkedRecipe",
             type: "relationship",
-            relationTo: "cocktail-prep-items",
+            relationTo: ["cocktail-prep-items", "cocktail-batch-recipes"],
             label: "Select sub-recipe",
             admin: {
               condition: (_, siblingData) => siblingData.isSubRecipe === true,
@@ -79,55 +74,6 @@ export const CocktailRecipes: CollectionConfig = {
         }  
         ],
       },
-    {
-      name: "batch-ingredients",
-      type: "array", // Allows repeatable ingredient entries
-      fields: [
-        {
-          name: "ingredient",
-          type: "text",
-          required: true,
-        },
-        {
-          name: "unit",
-          type: "select",
-          options: [
-            { label: "(none)", value: "" }, // this is the blank unit
-            { label: "oz", value: "oz" },
-            { label: "ml", value: "ml" },
-            { label: "dash", value: "dash" },
-            { label: "tsp", value: "tsp" },
-            { label: "tbsp", value: "tbsp" },
-            { label: "g", value: "g" },
-            { label: "drop", value: "drop" },
-            { label: "splash", value: "splash" },
-          ],
-          required: true,
-        },
-        {
-          name: "qty",
-          type: "number",
-          required: true,
-          min: 0.01,
-        },
-        {
-            name: "isSubRecipe",
-            type: "checkbox",
-            label: "Is this a sub-recipe?",
-            defaultValue: false,
-          },
-          {
-            name: "linkedRecipe",
-            type: "relationship",
-            relationTo: "cocktail-prep-items",
-            label: "Select sub-recipe",
-            admin: {
-              condition: (_, siblingData) => siblingData.isSubRecipe === true,
-            }, 
-        }
-        
-      ],
-    },
     {
         name: "yield",
         type: "text",

@@ -195,7 +195,6 @@ export interface Recipe {
 export interface CocktailRecipe {
   id: number;
   name: string;
-  dropPhrase?: string | null;
   method?: string | null;
   ingredients?:
     | {
@@ -203,17 +202,15 @@ export interface CocktailRecipe {
         unit: '' | 'oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash';
         qty: number;
         isSubRecipe?: boolean | null;
-        linkedRecipe?: (number | null) | CocktailPrepItem;
-        id?: string | null;
-      }[]
-    | null;
-  'batch-ingredients'?:
-    | {
-        ingredient: string;
-        unit: '' | 'oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash';
-        qty: number;
-        isSubRecipe?: boolean | null;
-        linkedRecipe?: (number | null) | CocktailPrepItem;
+        linkedRecipe?:
+          | ({
+              relationTo: 'cocktail-prep-items';
+              value: number | CocktailPrepItem;
+            } | null)
+          | ({
+              relationTo: 'cocktail-batch-recipes';
+              value: number | CocktailBatchRecipe;
+            } | null);
         id?: string | null;
       }[]
     | null;
@@ -432,19 +429,8 @@ export interface RecipesSelect<T extends boolean = true> {
  */
 export interface CocktailRecipesSelect<T extends boolean = true> {
   name?: T;
-  dropPhrase?: T;
   method?: T;
   ingredients?:
-    | T
-    | {
-        ingredient?: T;
-        unit?: T;
-        qty?: T;
-        isSubRecipe?: T;
-        linkedRecipe?: T;
-        id?: T;
-      };
-  'batch-ingredients'?:
     | T
     | {
         ingredient?: T;
