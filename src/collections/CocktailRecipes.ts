@@ -48,6 +48,8 @@ export const CocktailRecipes: CollectionConfig = {
                 { label: "g", value: "g" },
                 { label: "drop", value: "drop" },
                 { label: "splash", value: "splash" },
+                { label: "ea", value: "ea" }
+
               ],
             required: true,
           },
@@ -67,6 +69,7 @@ export const CocktailRecipes: CollectionConfig = {
             name: "linkedRecipe",
             type: "relationship",
             relationTo: ["cocktail-prep-items", "cocktail-batch-recipes"],
+            maxDepth:4,
             label: "Select sub-recipe",
             admin: {
               condition: (_, siblingData) => siblingData.isSubRecipe === true,

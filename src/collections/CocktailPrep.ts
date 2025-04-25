@@ -38,7 +38,7 @@ export const CocktailPrepItems: CollectionConfig = {
         {
           name: "unit",
           type: "select",
-          options: ["g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs"], // Customize as needed
+          options: ["g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea"], // Customize as needed
           required: true,
         },
         {
