@@ -170,14 +170,35 @@ export interface Recipe {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'oz' | 'ea' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs';
+        unit: 'g' | 'oz' | 'ea' | 'lbs' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?: (number | null) | Recipe;
         id?: string | null;
       }[]
     | null;
+  category?: ('sushi' | 'brunch' | 'prep' | 'plated') | null;
+  prepTime?: string | null;
+  shelfLife?: string | null;
+  stations?: string | null;
+  equipment?: string | null;
+  kitchenTools?: string | null;
   yield?: string | null;
+  allergens?:
+    | (
+        | 'gluten'
+        | 'dairy'
+        | 'eggs'
+        | 'fish'
+        | 'shellfish'
+        | 'soy'
+        | 'peanuts'
+        | 'tree_nuts'
+        | 'sesame'
+        | 'allium'
+        | 'pork'
+      )[]
+    | null;
   images?:
     | {
         image: number | Media;
@@ -412,7 +433,14 @@ export interface RecipesSelect<T extends boolean = true> {
         linkedRecipe?: T;
         id?: T;
       };
+  category?: T;
+  prepTime?: T;
+  shelfLife?: T;
+  stations?: T;
+  equipment?: T;
+  kitchenTools?: T;
   yield?: T;
+  allergens?: T;
   images?:
     | T
     | {

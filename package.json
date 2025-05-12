@@ -23,6 +23,7 @@
     "@payloadcms/richtext-lexical": "latest",
     "@payloadcms/storage-s3": "latest",
     "cross-env": "^7.0.3",
+    "csv-parse": "^5.6.0",
     "csv-parser": "^3.2.0",
     "graphql": "^16.8.1",
     "next": "15.1.5",
@@ -30,7 +31,8 @@
     "payload": "latest",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "sharp": "0.32.6"
+    "sharp": "0.32.6",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
