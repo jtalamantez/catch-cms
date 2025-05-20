@@ -70,6 +70,7 @@ export interface Config {
     users: User;
     media: Media;
     recipes: Recipe;
+    'recipes-prep': RecipesPrep;
     'cocktail-recipes': CocktailRecipe;
     'cocktail-prep-items': CocktailPrepItem;
     'cocktail-batch-recipes': CocktailBatchRecipe;
@@ -82,6 +83,7 @@ export interface Config {
     users: UsersSelect<false> | UsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     recipes: RecipesSelect<false> | RecipesSelect<true>;
+    'recipes-prep': RecipesPrepSelect<false> | RecipesPrepSelect<true>;
     'cocktail-recipes': CocktailRecipesSelect<false> | CocktailRecipesSelect<true>;
     'cocktail-prep-items': CocktailPrepItemsSelect<false> | CocktailPrepItemsSelect<true>;
     'cocktail-batch-recipes': CocktailBatchRecipesSelect<false> | CocktailBatchRecipesSelect<true>;
@@ -177,7 +179,7 @@ export interface Recipe {
         id?: string | null;
       }[]
     | null;
-  category?: ('sushi' | 'brunch' | 'prep' | 'plated') | null;
+  category?: ('' | 'dinner' | 'brunch') | null;
   prepTime?: string | null;
   shelfLife?: string | null;
   stations?: string | null;
@@ -197,6 +199,61 @@ export interface Recipe {
         | 'sesame'
         | 'allium'
         | 'pork'
+        | 'alcohol'
+        | 'ginger'
+      )[]
+    | null;
+  images?:
+    | {
+        image: number | Media;
+        caption?: string | null;
+        id?: string | null;
+      }[]
+    | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "recipes-prep".
+ */
+export interface RecipesPrep {
+  id: number;
+  name: string;
+  dropPhrase?: string | null;
+  method?: string | null;
+  ingredients?:
+    | {
+        ingredient: string;
+        unit: 'g' | 'oz' | 'ea' | 'lbs' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs';
+        qty: number;
+        isSubRecipe?: boolean | null;
+        linkedRecipe?: (number | null) | Recipe;
+        id?: string | null;
+      }[]
+    | null;
+  category?: ('' | 'dinner' | 'brunch') | null;
+  prepTime?: string | null;
+  shelfLife?: string | null;
+  stations?: string | null;
+  equipment?: string | null;
+  kitchenTools?: string | null;
+  yield?: string | null;
+  allergens?:
+    | (
+        | 'gluten'
+        | 'dairy'
+        | 'eggs'
+        | 'fish'
+        | 'shellfish'
+        | 'soy'
+        | 'peanuts'
+        | 'tree_nuts'
+        | 'sesame'
+        | 'allium'
+        | 'pork'
+        | 'alcohol'
+        | 'ginger'
       )[]
     | null;
   images?:
@@ -328,6 +385,10 @@ export interface PayloadLockedDocument {
         value: number | Recipe;
       } | null)
     | ({
+        relationTo: 'recipes-prep';
+        value: number | RecipesPrep;
+      } | null)
+    | ({
         relationTo: 'cocktail-recipes';
         value: number | CocktailRecipe;
       } | null)
@@ -420,6 +481,42 @@ export interface MediaSelect<T extends boolean = true> {
  * via the `definition` "recipes_select".
  */
 export interface RecipesSelect<T extends boolean = true> {
+  name?: T;
+  dropPhrase?: T;
+  method?: T;
+  ingredients?:
+    | T
+    | {
+        ingredient?: T;
+        unit?: T;
+        qty?: T;
+        isSubRecipe?: T;
+        linkedRecipe?: T;
+        id?: T;
+      };
+  category?: T;
+  prepTime?: T;
+  shelfLife?: T;
+  stations?: T;
+  equipment?: T;
+  kitchenTools?: T;
+  yield?: T;
+  allergens?: T;
+  images?:
+    | T
+    | {
+        image?: T;
+        caption?: T;
+        id?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "recipes-prep_select".
+ */
+export interface RecipesPrepSelect<T extends boolean = true> {
   name?: T;
   dropPhrase?: T;
   method?: T;

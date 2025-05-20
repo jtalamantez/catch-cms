@@ -4,7 +4,7 @@ export const CocktailBatchItems: CollectionConfig = {
   slug: "cocktail-batch-recipes",
   labels: {
     singular: "Beverage - Batch Recipe",
-    plural: "Beverage - Bactch Recipes",
+    plural: "Beverage - Batch Recipes",
   },
   admin: {
     useAsTitle: 'name',

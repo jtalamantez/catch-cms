@@ -15,6 +15,7 @@ import { Media } from './collections/Media'
 
 
 import { Recipes } from './collections/Recipes'
+import { RecipesPrep } from './collections/RecipePrep'
 import { CocktailRecipes } from './collections/CocktailRecipes'
 import { CocktailPrepItems } from './collections/CocktailPrep'
 import { CocktailBatchItems } from './collections/CocktailBatch'
@@ -29,7 +30,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Recipes, CocktailRecipes, CocktailPrepItems, CocktailBatchItems],
+  collections: [Users, Media, Recipes, RecipesPrep,  CocktailRecipes, CocktailPrepItems, CocktailBatchItems],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

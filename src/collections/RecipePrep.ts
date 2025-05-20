@@ -1,10 +1,10 @@
 import type { CollectionConfig } from 'payload'
 
-export const Recipes: CollectionConfig = {
-  slug: 'recipes',
+export const RecipesPrep: CollectionConfig = {
+  slug: 'recipes-prep',
   labels: {
-    singular: 'Culinary - Plated Recipe',
-    plural: 'Culinary - Plated Recipes',
+    singular: 'Culinary - Prep Recipe',
+    plural: 'Culinary - Prep Recipes',
   },
   admin: {
     useAsTitle: 'name',
