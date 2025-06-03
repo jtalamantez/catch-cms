@@ -225,8 +225,9 @@ export interface RecipesPrep {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'oz' | 'ea' | 'lbs' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs';
-        qty: number;
+        unit: 'g' | 'oz' | 'ea' | 'lbs' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs' | 'qt' | 'tt';
+        qty?: number | null;
+        'cuts-prep-brand'?: string | null;
         isSubRecipe?: boolean | null;
         linkedRecipe?: (number | null) | Recipe;
         id?: string | null;
@@ -526,6 +527,7 @@ export interface RecipesPrepSelect<T extends boolean = true> {
         ingredient?: T;
         unit?: T;
         qty?: T;
+        'cuts-prep-brand'?: T;
         isSubRecipe?: T;
         linkedRecipe?: T;
         id?: T;
