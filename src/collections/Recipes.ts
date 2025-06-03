@@ -43,15 +43,19 @@ export const Recipes: CollectionConfig = {
         {
           name: 'unit',
           type: 'select',
-          options: ['g', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs'], // Customize as needed
+          options: ['g', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs', 'qt','tt'], // Customize as needed
           required: true,
         },
         {
           name: 'qty',
           type: 'number',
-          required: true,
-          min: 0.01,
+          required: false,
         },
+        {
+            name: 'cuts-prep-brand',
+            type: 'text',
+            required: false,
+          },
         {
           name: 'isSubRecipe',
           type: 'checkbox',
@@ -72,6 +76,8 @@ export const Recipes: CollectionConfig = {
     {
       name: 'category',
       type: 'select',
+      hasMany: true,
+
       options: [
         { label: '', value: '' }, // ✅ blank/default
         { label: 'Dinner', value: 'dinner' },

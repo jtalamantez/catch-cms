@@ -77,6 +77,8 @@ export const RecipesPrep: CollectionConfig = {
     {
       name: 'category',
       type: 'select',
+      hasMany: true,
+
       options: [
         { label: '', value: '' }, // ✅ blank/default
         { label: 'Dinner', value: 'dinner' },
