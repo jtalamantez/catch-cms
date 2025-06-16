@@ -1,0 +1,30 @@
+Field,Value
+Recipe Name,Basmati Rice
+Implemented,2023-10-28 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~45 mins
+Dishes,"Herb Roasted Branzino, Side of Basmati"
+Description,
+Equipment,"burner range, blast chiller"
+Kitchen Tools,"Rubber spatula, rondeau, rondeau lid, sheet tray, hotel pans"
+Allergies,Allium
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),10
+Recipe Yield (Batch x2),20
+Recipe Yield (Batch x3),30
+Recipe Yield (Batch x4),40
+=== Ingredients ===,
+"Rice, Basmati","Unit: lbs, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: Regal"
+Chicken Stock,"Unit: qt, Batch x1: 8, Batch x2: 16, Batch x3: 24, Batch x4: 32, Prep/Brand: prepped"
+Water,"Unit: qt, Batch x1: 2, Batch x2: 4, Batch x3: 6, Batch x4: 8, Prep/Brand: "
+=== Prep Steps ===,
+Step 1,Combine all ingredients in a large rondeau
+Step 2,Bring to a boil over high heat
+Step 3,"Once boiled, start stirring with a large rubber spatula.  After ~5 minutes of stirring, reduce heat to medium."
+Step 4,"Continue stirring, careful not to break the rice, until 10% of liquid remains"
+Step 5,Cover with the rondeau lid and remove from heat.
+Step 6,"Allow to cool to room temp, residual heat and moisture will finish cooking process."
+Step 7,Reserve to sheet trays and cool in the blast chiller
+Step 8,Reserve to hotel pans in the cooler for service.

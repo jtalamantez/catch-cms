@@ -221,12 +221,29 @@ export interface Recipe {
 export interface RecipesPrep {
   id: number;
   name: string;
-  dropPhrase?: string | null;
+  dishes?: string | null;
   method?: string | null;
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'oz' | 'ea' | 'lbs' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs' | 'qt' | 'tt';
+        unit:
+          | 'gr'
+          | 'oz'
+          | 'ea'
+          | 'lbs'
+          | 'kg'
+          | 'ml'
+          | 'l'
+          | 'tsp'
+          | 'gal'
+          | 'tbsp'
+          | 'cup'
+          | 'pcs'
+          | 'qt'
+          | 'tt'
+          | 'bag'
+          | 'case'
+          | 'box';
         qty?: number | null;
         'cuts-prep-brand'?: string | null;
         isSubRecipe?: boolean | null;
@@ -240,22 +257,67 @@ export interface RecipesPrep {
   stations?: string | null;
   equipment?: string | null;
   kitchenTools?: string | null;
-  yield?: string | null;
+  totalYield?: {
+    qty?: number | null;
+    unit?:
+      | (
+          | 'gr'
+          | 'oz'
+          | 'ea'
+          | 'lbs'
+          | 'kg'
+          | 'ml'
+          | 'l'
+          | 'tsp'
+          | 'gal'
+          | 'tbsp'
+          | 'cup'
+          | 'pcs'
+          | 'qt'
+          | 'tt'
+          | 'bag'
+          | 'case'
+          | 'box'
+        )
+      | null;
+  };
   allergens?:
     | (
-        | 'gluten'
+        | 'alcohol'
+        | 'allium'
+        | 'anchovy'
+        | 'ancient_grains'
+        | 'black_pepper'
+        | 'capsaicin'
+        | 'cilantro'
+        | 'cinnamon'
+        | 'citrus'
         | 'dairy'
         | 'eggs'
         | 'fish'
+        | 'fish_roe'
+        | 'fryer_cc_issues'
+        | 'garlic'
+        | 'ginger'
+        | 'gluten'
+        | 'honey'
+        | 'msg'
+        | 'mollusk'
+        | 'mushroom'
+        | 'mustard'
+        | 'nightshade'
+        | 'onion'
+        | 'peanuts'
+        | 'pineapple'
+        | 'pork'
+        | 'seafood'
+        | 'sesame'
         | 'shellfish'
         | 'soy'
-        | 'peanuts'
+        | 'stonefruit'
+        | 'sulfites'
         | 'tree_nuts'
-        | 'sesame'
-        | 'allium'
-        | 'pork'
-        | 'alcohol'
-        | 'ginger'
+        | 'wheat'
       )[]
     | null;
   images?:
@@ -521,7 +583,7 @@ export interface RecipesSelect<T extends boolean = true> {
  */
 export interface RecipesPrepSelect<T extends boolean = true> {
   name?: T;
-  dropPhrase?: T;
+  dishes?: T;
   method?: T;
   ingredients?:
     | T
@@ -540,7 +602,12 @@ export interface RecipesPrepSelect<T extends boolean = true> {
   stations?: T;
   equipment?: T;
   kitchenTools?: T;
-  yield?: T;
+  totalYield?:
+    | T
+    | {
+        qty?: T;
+        unit?: T;
+      };
   allergens?: T;
   images?:
     | T

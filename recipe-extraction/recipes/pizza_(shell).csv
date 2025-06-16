@@ -1,0 +1,28 @@
+Field,Value
+Recipe Name,Pizza (Shell)
+Implemented,2024-02-20 00:00:00
+Created,
+Shelf Life,~1 day
+Stations,prep
+Prep Time,~10 minutes
+Dishes,Sashimi Pizza
+Description,
+Equipment,"Convection Oven, Silica Gel Packets"
+Kitchen Tools,"Sheet Trays, resting racks, binder clips, skewers, 
+Fish box"
+Allergies,Gluten (Wheat)
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Tortilla, flour","Unit: gr, Batch x1: nan, Batch x2: 0, Batch x3: 0, Batch x4: 0, Prep/Brand: Mayan Farm"
+=== Prep Steps ===,
+Step 1,Cut with 19cm ring mold.
+Step 2,"Sandwich between 2 wire racks, with feet opposing outside, to maintain a flat shape during cook."
+Step 3,Each wire rack sandwich should have 6 tortillas.
+Step 4,"Using Butterfly or Binder Clips to pinch racks together, use a thin skewer to dock tortillas to prevent air rising in between."
+Step 5,"In a convection oven preheated to ~350°F, bake for ~7 minutes then rotate and bake for an additional ~1 min"
+Step 6,"Allow to cool while inbetween racks, then reserve to large fish boxes with silica gel packets."
+Step 7,"Store in a cool, dry place and label with caution to prevent breakage."

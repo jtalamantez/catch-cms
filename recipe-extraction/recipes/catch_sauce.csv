@@ -1,0 +1,35 @@
+Field,Value
+Recipe Name,Catch Sauce
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,5 days
+Stations,varioius
+Prep Time,15 mins
+Dishes,various
+Description,
+Equipment,vitamix blender
+Kitchen Tools,"Rubber spatula, chinois, 2 oz ladle, deli containers"
+Allergies,"Soy, Allium (Garlic), Mustard, Fin Fish"
+Recipe Yield Unit,gr
+Recipe Yield (Batch x1),18500
+Recipe Yield (Batch x2),37000
+Recipe Yield (Batch x3),55500
+Recipe Yield (Batch x4),74000
+=== Ingredients ===,
+"Miso, White Paste","Unit: gr, Batch x1: 4000, Batch x2: 8000, Batch x3: 12000, Batch x4: 16000, Prep/Brand: Homare TWF"
+"Gari, Pickled Sushi Ginger","Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: Miyako Amasuzuke Shiro Gari"
+Sushi Vinegar,"Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: prepped"
+"Mustard, Dijon","Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: Maille Dijon"
+Honey,"Unit: gr, Batch x1: 3402, Batch x2: 6804, Batch x3: 10206, Batch x4: 13608, Prep/Brand: Bear's Club Honey"
+Toasted Garlic,"Unit: gr, Batch x1: 1500, Batch x2: 3000, Batch x3: 4500, Batch x4: 6000, Prep/Brand: prepped"
+Shiro Dashi,"Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: Kikkoman Kaori Soup Base"
+Mirin,"Unit: gr, Batch x1: 4000, Batch x2: 8000, Batch x3: 12000, Batch x4: 16000, Prep/Brand: Takara"
+Sake,"Unit: gr, Batch x1: 2000, Batch x2: 4000, Batch x3: 6000, Batch x4: 8000, Prep/Brand: Takara"
+Grapeseed Oil,"Unit: gr, Batch x1: 1500, Batch x2: 3000, Batch x3: 4500, Batch x4: 6000, Prep/Brand: Spoleto"
+"Oil, Extra Olive (EVOO)","Unit: gr, Batch x1: 1500, Batch x2: 3000, Batch x3: 4500, Batch x4: 6000, Prep/Brand: Spoleto"
+=== Prep Steps ===,
+Step 1,"Combine all ingredients in a vitamix blender, blending in batches if necessary."
+Step 2,Blend until smooth.
+Step 3,"Pass through a chinois fine mesh strainer, using a 2 oz ladle to plunge"
+Step 4,"Discard solids in chinois, reserve strained sauce in quart containers."
+Step 5,Store in the cooler.

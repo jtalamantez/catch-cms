@@ -1,0 +1,26 @@
+Field,Value
+Recipe Name,Mother #2 
+Implemented,2024-02-10 00:00:00
+Created,2024-02-10 00:00:00
+Shelf Life,5 Days
+Stations,Saucier
+Prep Time,~5 mins
+Dishes,"Sauces, Crispy Chicken, Brussels"
+Description,
+Equipment,"Sauce pot, burner range"
+Kitchen Tools,"Whisk, Rubber Spatula, Deli Containers"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),2
+Recipe Yield (Batch x2),4
+Recipe Yield (Batch x3),6
+Recipe Yield (Batch x4),8
+=== Ingredients ===,
+"Vinegar, Sherry","Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: "
+"Sugar, granulated","Unit: gr, Batch x1: 400, Batch x2: 800, Batch x3: 1200, Batch x4: 1600, Prep/Brand: Domino"
+"Salt, Kosher","Unit: gr, Batch x1: 30, Batch x2: 60, Batch x3: 90, Batch x4: 120, Prep/Brand: Diamond Crystal"
+=== Prep Steps ===,
+Step 1,"Combine all ingredients in a sauce pot, heat to dissolve the sugar"
+Step 2,"Maintain medium-low heat and reduce to 1/3 - 1/4, careful not to burn sugar (stir constantly)"
+Step 3,"Using a clear measuring cup, check viscosity and thickness of sauce"
+Step 4,Cool in blast chiller or ice bath
+Step 5,Reserve in quart containers in the cooler.

@@ -1,0 +1,30 @@
+Field,Value
+Recipe Name,Lobster Mix
+Implemented,2023-10-28 00:00:00
+Created,
+Shelf Life,2 days
+Stations,sushi
+Prep Time,10 mins
+Dishes,surf and turf
+Description,
+Equipment,
+Kitchen Tools,mixing bowls
+Allergies,"Shellfish, Capsaicin, Ginger, Cinnamon, Mustard, "
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Lobster meat, chopped","Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: culls, fresh cooked"
+"Herbs, dill","Unit: gr, Batch x1: 15, Batch x2: 30, Batch x3: 45, Batch x4: 60, Prep/Brand: chopped"
+"Herbs, chives","Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: brunoise"
+"Spice, Black Pepper ground","Unit: gr, Batch x1: 5, Batch x2: 10, Batch x3: 15, Batch x4: 20, Prep/Brand: "
+"Salt, Kosher","Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: Diamond Crystal"
+Schichimi Togarashi,"Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: S&B Togarashi"
+Truffle Aioli,"Unit: gr, Batch x1: 800, Batch x2: 1600, Batch x3: 2400, Batch x4: 3200, Prep/Brand: prepped"
+=== Prep Steps ===,
+Step 1,"Thoroughly check lobster meat for shell and featherbones, then squeeze the excess moisture using a kitchen towel"
+Step 2,"In a large mixing bowl, combine all ingredients and mix until homogenous and thoroughly seasoned"
+Step 3,Reserve in appropriate sized cambro pans and store in the cooler.
+Step 4,NOTE: All ground black pepper needs to be seived first before adding to avoid large pieces of peppercorn

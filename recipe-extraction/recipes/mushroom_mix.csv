@@ -1,0 +1,31 @@
+Field,Value
+Recipe Name,Mushroom Mix
+Implemented,2023-10-28 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~35 mins
+Dishes,Mushroom Spaghetti
+Description,
+Equipment,"blodget oven, blast chiller"
+Kitchen Tools,"knife, large collander, mixing bowl, sheet trays, 
+deli containers"
+Allergies,"Mushrooms, Black Pepper, Soy"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),3
+Recipe Yield (Batch x2),6
+Recipe Yield (Batch x3),9
+Recipe Yield (Batch x4),12
+=== Ingredients ===,
+"Mushrooms, Buttons halved/quartered","Unit: lbs, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: halved or quartered"
+"Spice, Black Pepper fine ground","Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: spice, finely ground"
+"Soy Sauce, Tamari","Unit: mL, Batch x1: 473, Batch x2: 946, Batch x3: 1419, Batch x4: 1892, Prep/Brand: San-J"
+=== Prep Steps ===,
+Step 1,Wash Mushrooms first
+Step 2,"Cut them muhsrooms, halves for small size and quarters for larger sizes"
+Step 3,"Toss the mushrooms, pepper, and tamari all together until evenly seasoned and coated.  Reserve to parchment lined sheet trays"
+Step 4,"In a convection oven set to ~400°F high fan, roast for ~5 minutes"
+Step 5,"Rotate the sheet trays after the 5 minutes, and cook an additional ~5 minutes"
+Step 6,Mushrooms should be reduced in size with excess water leached to the sheet tray.
+Step 7,"Cool in a blast chiller, then reserve in quart containers with the leeched liquid."
+Step 8,Store in the cooler

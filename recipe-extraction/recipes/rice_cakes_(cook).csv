@@ -1,0 +1,32 @@
+Field,Value
+Recipe Name,Rice Cakes (Cook)
+Implemented,02.28.24
+Created,
+Shelf Life,5 days
+Stations,"Sushi Prep, Prep"
+Prep Time,~1 hour
+Dishes,Rice Cakes
+Description,
+Equipment,"Zojirushi Rice Cooker, Hangiri, Shimoji"
+Kitchen Tools,Lexan or cambro containers.
+Recipe Yield Unit,Block
+Recipe Yield (Batch x1),5
+Recipe Yield (Batch x2),10
+Recipe Yield (Batch x3),15
+Recipe Yield (Batch x4),20
+=== Ingredients ===,
+"Rice, Sushi","Unit: gr, Batch x1: 22550, Batch x2: 45100, Batch x3: 67650, Batch x4: 90200, Prep/Brand: Tamanashiki"
+Miola,"Unit: gr, Batch x1: 6, Batch x2: 12, Batch x3: 18, Batch x4: 24, Prep/Brand: Senyo"
+Water,"Unit: gr, Batch x1: 3785, Batch x2: 7570, Batch x3: 11355, Batch x4: 15140, Prep/Brand: "
+Sushi Vinegar,"Unit: gr, Batch x1: 946, Batch x2: 1892, Batch x3: 2838, Batch x4: 3784, Prep/Brand: prepped"
+"Salt, Kosher","Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: Diamond Crystal"
+"Sugar, Granulated","Unit: gr, Batch x1: 20, Batch x2: 40, Batch x3: 60, Batch x4: 80, Prep/Brand: Domino"
+=== Prep Steps ===,
+Step 1,"In a rice cooking net or strainer, rinse rice in same method as sushi rice, ~3-4 times or until just before clear water."
+Step 2,"Strain, and reserve to rice cooker pot."
+Step 3,Cook with water and miola.
+Step 4,"In a mixing bowl or otherwise appropriate container, combine vinegar, salt, and sugar."
+Step 5,"Once rice is finished cooking, reserve to Hangiri (sushi rice mixing bowl)."
+Step 6,"Break rice slightly with Shimoji paddle, then fan half of the vinegar mix with the shimoji."
+Step 7,"Cut the rice with the vinegar, mixing and breaking up clumps of grains. Add additional vinegar as mixed."
+Step 8,"Once all grains are individually seasoned and mixed, and all rice is homogenous and seasoned, reserve to lexans."

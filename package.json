@@ -16,7 +16,7 @@
     "dev:cms": "cross-env NODE_ENV=development PAYLOAD_CONFIG_PATH=payload.config.ts dotenv -e .env.local -- payload dev"
   },
   "dependencies": {
-    "@payloadcms/db-postgres": "^3.33.0",
+    "@payloadcms/db-postgres": "^3.39.1",
     "@payloadcms/db-sqlite": "latest",
     "@payloadcms/next": "latest",
     "@payloadcms/payload-cloud": "latest",

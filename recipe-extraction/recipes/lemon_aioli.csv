@@ -1,0 +1,33 @@
+Field,Value
+Recipe Name,Lemon Aioli
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,5 days
+Stations,various
+Prep Time,10 mins
+Dishes,Salmon Ikura Roll
+Description,
+Equipment,"vitamix blender, grill"
+Kitchen Tools,"knife, rubber spatula, deli containers"
+Allergies,"Citrus, Egg, Finfish, MSG, Allium (garlic), "
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Lemon Juice, grilled","Unit: gr, Batch x1: 45, Batch x2: 90, Batch x3: 135, Batch x4: 180, Prep/Brand: fresh, halved, grilled, juiced"
+Aji Amarillo,"Unit: gr, Batch x1: 5, Batch x2: 10, Batch x3: 15, Batch x4: 20, Prep/Brand: Dona isabel"
+Garlic,"Unit: gr, Batch x1: 5, Batch x2: 10, Batch x3: 15, Batch x4: 20, Prep/Brand: fresh, germ removed"
+Calamansi Syrup,"Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: Pick & Squeeze Kalamansi"
+"Salt, Kosher","Unit: gr, Batch x1: 5, Batch x2: 10, Batch x3: 15, Batch x4: 20, Prep/Brand: Diamond Crystal"
+"Mayo, Kewpie","Unit: gr, Batch x1: 200, Batch x2: 400, Batch x3: 600, Batch x4: 800, Prep/Brand: Kewpie, red lebel squeeze bottle"
+Lmeon Zest,"Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: prepped, solids"
+"Lemon Confit, solids","Unit: gr, Batch x1: 30, Batch x2: 60, Batch x3: 90, Batch x4: 120, Prep/Brand: "
+Xantham Gum,"Unit: gr, Batch x1: 1, Batch x2: 2, Batch x3: 3, Batch x4: 4, Prep/Brand: "
+=== Prep Steps ===,
+Step 1,"Cut lemons in half, then place on heated grill with cut side down until charred and aromatic.  Squeeze and reserve juice."
+Step 2,"In a vitamix blender, combine all ingredients except the xantham gum, and blend on high"
+Step 3,"Once smooth, add xantham slowly while blending on high to ensure even distribution"
+Step 4,"Check for consistency and taste, then reserve to quart containers."
+Step 5,Store in the cooler.

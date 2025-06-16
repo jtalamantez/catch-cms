@@ -1,0 +1,24 @@
+Field,Value
+Recipe Name,House Aioli
+Implemented,2024-02-10 00:00:00
+Created,2024-02-10 00:00:00
+Shelf Life,
+Stations,
+Prep Time,
+Dishes,
+Description,
+Equipment,Large Mixing Bowl
+Kitchen Tools,"Rubber Spatula, whisk, deli containers"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),5
+Recipe Yield (Batch x2),10
+Recipe Yield (Batch x3),15
+Recipe Yield (Batch x4),20
+=== Ingredients ===,
+"Mayonaisse, Hellman's Best","Unit: gr, Batch x1: 750, Batch x2: 1500, Batch x3: 2250, Batch x4: 3000, Prep/Brand: Hellman's Best"
+House Aioli Rouille,"Unit: gr, Batch x1: 150, Batch x2: 300, Batch x3: 450, Batch x4: 600, Prep/Brand: prepped"
+"Salt, kosher","Unit: gr, Batch x1: 12, Batch x2: 24, Batch x3: 36, Batch x4: 48, Prep/Brand: Diamond Crystal"
+"Lemon, juice","Unit: gr, Batch x1: 80, Batch x2: 160, Batch x3: 240, Batch x4: 320, Prep/Brand: fresh, squeezed juice"
+=== Prep Steps ===,
+Step 1,Combine all ingredients in a large mixing bowl until homogenous and emulsified.
+Step 2,"Reserve in quart containers, store in the cooler"

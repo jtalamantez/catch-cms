@@ -1,0 +1,398 @@
+[
+  {
+    "label": "ALCOHOL",
+    "value": "alcohol"
+  },
+  {
+    "label": "ALLIUM",
+    "value": "allium"
+  },
+  {
+    "label": "Alcohol",
+    "value": "alcohol"
+  },
+  {
+    "label": "Alcohol (Nitrates)",
+    "value": "alcohol_(nitrates)"
+  },
+  {
+    "label": "Alcohol (nitrates)",
+    "value": "alcohol_(nitrates)"
+  },
+  {
+    "label": "Allium",
+    "value": "allium"
+  },
+  {
+    "label": "Allium (Garlic",
+    "value": "allium_(garlic"
+  },
+  {
+    "label": "Allium (Garlic)",
+    "value": "allium_(garlic)"
+  },
+  {
+    "label": "Allium (Onion",
+    "value": "allium_(onion"
+  },
+  {
+    "label": "Allium (Onion)",
+    "value": "allium_(onion)"
+  },
+  {
+    "label": "Allium (Onions)",
+    "value": "allium_(onions)"
+  },
+  {
+    "label": "Allium (garlic",
+    "value": "allium_(garlic"
+  },
+  {
+    "label": "Allium (garlic)",
+    "value": "allium_(garlic)"
+  },
+  {
+    "label": "Allium (onion",
+    "value": "allium_(onion"
+  },
+  {
+    "label": "Allium (onions)",
+    "value": "allium_(onions)"
+  },
+  {
+    "label": "Anchovy)",
+    "value": "anchovy)"
+  },
+  {
+    "label": "Ancient Grains",
+    "value": "ancient_grains"
+  },
+  {
+    "label": "Black Pepper",
+    "value": "black_pepper"
+  },
+  {
+    "label": "CAPCASIN",
+    "value": "capcasin"
+  },
+  {
+    "label": "CITRUS",
+    "value": "citrus"
+  },
+  {
+    "label": "Capsacin",
+    "value": "capsacin"
+  },
+  {
+    "label": "Capsaicin",
+    "value": "capsaicin"
+  },
+  {
+    "label": "Cilantro",
+    "value": "cilantro"
+  },
+  {
+    "label": "Cinnamon",
+    "value": "cinnamon"
+  },
+  {
+    "label": "Citrus",
+    "value": "citrus"
+  },
+  {
+    "label": "DAIRY",
+    "value": "dairy"
+  },
+  {
+    "label": "Dairy",
+    "value": "dairy"
+  },
+  {
+    "label": "Diary",
+    "value": "diary"
+  },
+  {
+    "label": "EGGS",
+    "value": "eggs"
+  },
+  {
+    "label": "Egg",
+    "value": "egg"
+  },
+  {
+    "label": "Eggs",
+    "value": "eggs"
+  },
+  {
+    "label": "FINFISH",
+    "value": "finfish"
+  },
+  {
+    "label": "FRYER CC ISSUES",
+    "value": "fryer_cc_issues"
+  },
+  {
+    "label": "Fin Fish",
+    "value": "fin_fish"
+  },
+  {
+    "label": "Fin Fish (Tuna",
+    "value": "fin_fish_(tuna"
+  },
+  {
+    "label": "Finfish",
+    "value": "finfish"
+  },
+  {
+    "label": "Finfish (Salmon)",
+    "value": "finfish_(salmon)"
+  },
+  {
+    "label": "Finfish (Tuna)",
+    "value": "finfish_(tuna)"
+  },
+  {
+    "label": "Fish Roe",
+    "value": "fish_roe"
+  },
+  {
+    "label": "Fish roe",
+    "value": "fish_roe"
+  },
+  {
+    "label": "Garlic)",
+    "value": "garlic)"
+  },
+  {
+    "label": "Ginger",
+    "value": "ginger"
+  },
+  {
+    "label": "Gluten",
+    "value": "gluten"
+  },
+  {
+    "label": "Gluten (Wheat)",
+    "value": "gluten_(wheat)"
+  },
+  {
+    "label": "Gluten (wheat)",
+    "value": "gluten_(wheat)"
+  },
+  {
+    "label": "Gluten/Wheat",
+    "value": "gluten/wheat"
+  },
+  {
+    "label": "Honey",
+    "value": "honey"
+  },
+  {
+    "label": "MSG",
+    "value": "msg"
+  },
+  {
+    "label": "Molusk (similar to Shellfish but not the same)",
+    "value": "molusk_(similar_to_shellfish_but_not_the_same)"
+  },
+  {
+    "label": "Mushroom",
+    "value": "mushroom"
+  },
+  {
+    "label": "Mushrooms",
+    "value": "mushrooms"
+  },
+  {
+    "label": "Mustard",
+    "value": "mustard"
+  },
+  {
+    "label": "Mustards",
+    "value": "mustards"
+  },
+  {
+    "label": "Nightshade",
+    "value": "nightshade"
+  },
+  {
+    "label": "Nightshade (Potat Starch)",
+    "value": "nightshade_(potat_starch)"
+  },
+  {
+    "label": "Onion)",
+    "value": "onion)"
+  },
+  {
+    "label": "Pineapple",
+    "value": "pineapple"
+  },
+  {
+    "label": "Pork",
+    "value": "pork"
+  },
+  {
+    "label": "Seafood",
+    "value": "seafood"
+  },
+  {
+    "label": "Sesame",
+    "value": "sesame"
+  },
+  {
+    "label": "Sesame (Oil)",
+    "value": "sesame_(oil)"
+  },
+  {
+    "label": "Sesame (oil)",
+    "value": "sesame_(oil)"
+  },
+  {
+    "label": "Shellfish",
+    "value": "shellfish"
+  },
+  {
+    "label": "Shellfish (Crustacean)",
+    "value": "shellfish_(crustacean)"
+  },
+  {
+    "label": "Shellfish (Lobster/Crustacean)",
+    "value": "shellfish_(lobster/crustacean)"
+  },
+  {
+    "label": "Shellfish (shrimp/crustacean)",
+    "value": "shellfish_(shrimp/crustacean)"
+  },
+  {
+    "label": "Shellfish / Bivalves",
+    "value": "shellfish_/_bivalves"
+  },
+  {
+    "label": "Shellfish / Lobster / Crustacean",
+    "value": "shellfish_/_lobster_/_crustacean"
+  },
+  {
+    "label": "Shellfish/Crustacean (Crab)",
+    "value": "shellfish/crustacean_(crab)"
+  },
+  {
+    "label": "Shellfish/Lobster/Crustaceans",
+    "value": "shellfish/lobster/crustaceans"
+  },
+  {
+    "label": "Soy",
+    "value": "soy"
+  },
+  {
+    "label": "Stonefruit (Avocado)",
+    "value": "stonefruit_(avocado)"
+  },
+  {
+    "label": "Stonefruit (avocado)",
+    "value": "stonefruit_(avocado)"
+  },
+  {
+    "label": "Sulfites",
+    "value": "sulfites"
+  },
+  {
+    "label": "Tree Nuts (pine nuts)",
+    "value": "tree_nuts_(pine_nuts)"
+  },
+  {
+    "label": "Wheat",
+    "value": "wheat"
+  },
+  {
+    "label": "Wheat / Gluten",
+    "value": "wheat_/_gluten"
+  },
+  {
+    "label": "Wheat/Gluten",
+    "value": "wheat/gluten"
+  },
+  {
+    "label": "Wheat/gluten",
+    "value": "wheat/gluten"
+  },
+  {
+    "label": "alcohol (Nitrates)",
+    "value": "alcohol_(nitrates)"
+  },
+  {
+    "label": "allium (Garlic)",
+    "value": "allium_(garlic)"
+  },
+  {
+    "label": "allium (garlic",
+    "value": "allium_(garlic"
+  },
+  {
+    "label": "allium (garlic)",
+    "value": "allium_(garlic)"
+  },
+  {
+    "label": "allium (onion",
+    "value": "allium_(onion"
+  },
+  {
+    "label": "allium (onion)",
+    "value": "allium_(onion)"
+  },
+  {
+    "label": "capsaicin",
+    "value": "capsaicin"
+  },
+  {
+    "label": "citrus",
+    "value": "citrus"
+  },
+  {
+    "label": "eggs",
+    "value": "eggs"
+  },
+  {
+    "label": "finfish",
+    "value": "finfish"
+  },
+  {
+    "label": "finfish (Salmon)",
+    "value": "finfish_(salmon)"
+  },
+  {
+    "label": "fish roe",
+    "value": "fish_roe"
+  },
+  {
+    "label": "garlic)",
+    "value": "garlic)"
+  },
+  {
+    "label": "ginger",
+    "value": "ginger"
+  },
+  {
+    "label": "gluten (wheat)",
+    "value": "gluten_(wheat)"
+  },
+  {
+    "label": "honey",
+    "value": "honey"
+  },
+  {
+    "label": "nightshade",
+    "value": "nightshade"
+  },
+  {
+    "label": "onion)",
+    "value": "onion)"
+  },
+  {
+    "label": "sesame",
+    "value": "sesame"
+  },
+  {
+    "label": "soy",
+    "value": "soy"
+  }
+]
