@@ -1,4 +1,6 @@
 import type { CollectionConfig } from 'payload'
+import { Units, Allergens } from '../utils/units';
+
 
 export const RecipesPrep: CollectionConfig = {
   slug: 'recipes-prep',
@@ -20,6 +22,8 @@ export const RecipesPrep: CollectionConfig = {
       name: 'name',
       type: 'text',
       required: true,
+      unique: true, // <-- this ensures no duplicate names in the DB
+
     },
     {
       name: 'dishes',
@@ -43,7 +47,7 @@ export const RecipesPrep: CollectionConfig = {
         {
           name: 'unit',
           type: 'select',
-          options: ['gr', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs', 'qt','tt','bag','case','box'], // Customize as needed
+          options: Units,
           required: true,
         },
         {
@@ -124,7 +128,7 @@ export const RecipesPrep: CollectionConfig = {
           {
             name: 'unit',
             type: 'select',
-            options: ['gr', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs', 'qt','tt','bag','case','box'], // Customize as needed
+            options: Units,
             required: false,
           },
         ]
@@ -134,43 +138,7 @@ export const RecipesPrep: CollectionConfig = {
         label: 'Allergies',
         type: 'select',
         hasMany: true,
-        options: [
-            { "label": "Alcohol", "value": "alcohol" },
-            { "label": "Allium", "value": "allium" },
-            { "label": "Anchovy", "value": "anchovy" },
-            { "label": "Ancient Grains", "value": "ancient_grains" },
-            { "label": "Black Pepper", "value": "black_pepper" },
-            { "label": "Capsaicin", "value": "capsaicin" },
-            { "label": "Cilantro", "value": "cilantro" },
-            { "label": "Cinnamon", "value": "cinnamon" },
-            { "label": "Citrus", "value": "citrus" },
-            { "label": "Dairy", "value": "dairy" },
-            { "label": "Eggs", "value": "eggs" },
-            { "label": "Fish", "value": "fish" },
-            { "label": "Fish Roe", "value": "fish_roe" },
-            { "label": "Fryer Cross Contact", "value": "fryer_cc_issues" },
-            { "label": "Garlic", "value": "garlic" },
-            { "label": "Ginger", "value": "ginger" },
-            { "label": "Gluten", "value": "gluten" },
-            { "label": "Honey", "value": "honey" },
-            { "label": "MSG", "value": "msg" },
-            { "label": "Mollusk", "value": "mollusk" },
-            { "label": "Mushroom", "value": "mushroom" },
-            { "label": "Mustard", "value": "mustard" },
-            { "label": "Nightshade", "value": "nightshade" },
-            { "label": "Onion", "value": "onion" },
-            { "label": "Peanuts", "value": "peanuts" },
-            { "label": "Pineapple", "value": "pineapple" },
-            { "label": "Pork", "value": "pork" },
-            { "label": "Seafood", "value": "seafood" },
-            { "label": "Sesame", "value": "sesame" },
-            { "label": "Shellfish", "value": "shellfish" },
-            { "label": "Soy", "value": "soy" },
-            { "label": "Stonefruit", "value": "stonefruit" },
-            { "label": "Sulfites", "value": "sulfites" },
-            { "label": "Tree Nuts", "value": "tree_nuts" },
-            { "label": "Wheat", "value": "wheat" }
-          ],
+        options: Allergens,
       },
     {
       name: 'images',

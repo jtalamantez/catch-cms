@@ -167,12 +167,36 @@ export interface Media {
 export interface Recipe {
   id: number;
   name: string;
-  dropPhrase?: string | null;
   method?: string | null;
+  plateBuild?: string | null;
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'oz' | 'ea' | 'lbs' | 'kg' | 'ml' | 'l' | 'tsp' | 'gal' | 'tbsp' | 'cup' | 'pcs' | 'qt' | 'tt';
+        unit:
+          | 'gr'
+          | 'g'
+          | 'oz'
+          | 'ea'
+          | 'lbs'
+          | 'kg'
+          | 'ml'
+          | 'l'
+          | 'tsp'
+          | 'gal'
+          | 'tbsp'
+          | 'cup'
+          | 'pcs'
+          | 'qt'
+          | 'tt'
+          | 'bag'
+          | 'case'
+          | 'box'
+          | 'portion'
+          | 'hotel pan'
+          | 'order'
+          | 'pastry bags'
+          | 'hp'
+          | 'block';
         qty?: number | null;
         'cuts-prep-brand'?: string | null;
         isSubRecipe?: boolean | null;
@@ -180,28 +204,54 @@ export interface Recipe {
         id?: string | null;
       }[]
     | null;
-  category?: ('' | 'dinner' | 'brunch')[] | null;
+  implemented?: string | null;
+  lastRevised?: string | null;
   prepTime?: string | null;
-  shelfLife?: string | null;
+  kitchen?: string | null;
   stations?: string | null;
-  equipment?: string | null;
-  kitchenTools?: string | null;
-  yield?: string | null;
+  mealPeriod?: string | null;
+  mealType?: string | null;
+  platingInstructions?: string | null;
+  plateType?: string | null;
+  utensils?: string | null;
+  category?: ('' | 'dinner' | 'brunch')[] | null;
   allergens?:
     | (
-        | 'gluten'
+        | 'alcohol'
+        | 'allium'
+        | 'anchovy'
+        | 'ancient_grains'
+        | 'black_pepper'
+        | 'capsaicin'
+        | 'cilantro'
+        | 'cinnamon'
+        | 'citrus'
         | 'dairy'
         | 'eggs'
         | 'fish'
+        | 'fish_roe'
+        | 'fryer_cc_issues'
+        | 'garlic'
+        | 'ginger'
+        | 'gluten'
+        | 'honey'
+        | 'msg'
+        | 'mollusk'
+        | 'mushroom'
+        | 'mustard'
+        | 'nightshade'
+        | 'onion'
+        | 'peanuts'
+        | 'pineapple'
+        | 'pork'
+        | 'seafood'
+        | 'sesame'
         | 'shellfish'
         | 'soy'
-        | 'peanuts'
+        | 'stonefruit'
+        | 'sulfites'
         | 'tree_nuts'
-        | 'sesame'
-        | 'allium'
-        | 'pork'
-        | 'alcohol'
-        | 'ginger'
+        | 'wheat'
       )[]
     | null;
   images?:
@@ -228,6 +278,7 @@ export interface RecipesPrep {
         ingredient: string;
         unit:
           | 'gr'
+          | 'g'
           | 'oz'
           | 'ea'
           | 'lbs'
@@ -243,7 +294,13 @@ export interface RecipesPrep {
           | 'tt'
           | 'bag'
           | 'case'
-          | 'box';
+          | 'box'
+          | 'portion'
+          | 'hotel pan'
+          | 'order'
+          | 'pastry bags'
+          | 'hp'
+          | 'block';
         qty?: number | null;
         'cuts-prep-brand'?: string | null;
         isSubRecipe?: boolean | null;
@@ -262,6 +319,7 @@ export interface RecipesPrep {
     unit?:
       | (
           | 'gr'
+          | 'g'
           | 'oz'
           | 'ea'
           | 'lbs'
@@ -278,6 +336,12 @@ export interface RecipesPrep {
           | 'bag'
           | 'case'
           | 'box'
+          | 'portion'
+          | 'hotel pan'
+          | 'order'
+          | 'pastry bags'
+          | 'hp'
+          | 'block'
         )
       | null;
   };
@@ -546,8 +610,8 @@ export interface MediaSelect<T extends boolean = true> {
  */
 export interface RecipesSelect<T extends boolean = true> {
   name?: T;
-  dropPhrase?: T;
   method?: T;
+  plateBuild?: T;
   ingredients?:
     | T
     | {
@@ -559,13 +623,17 @@ export interface RecipesSelect<T extends boolean = true> {
         linkedRecipe?: T;
         id?: T;
       };
-  category?: T;
+  implemented?: T;
+  lastRevised?: T;
   prepTime?: T;
-  shelfLife?: T;
+  kitchen?: T;
   stations?: T;
-  equipment?: T;
-  kitchenTools?: T;
-  yield?: T;
+  mealPeriod?: T;
+  mealType?: T;
+  platingInstructions?: T;
+  plateType?: T;
+  utensils?: T;
+  category?: T;
   allergens?: T;
   images?:
     | T

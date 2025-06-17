@@ -1,0 +1,38 @@
+Field,Value
+Recipe Name,Cantonese Lobster
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Pastry/Sushi/Haute
+Stations,Garde Manger
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,Appetizer
+Preparation Time,3 minutes
+Plating Instructions,copper serving tray
+Plate Type,
+Utensils,copper tongs
+Allergies,"Shellfish (crustaceans, bivalves), soy, gluten (Wheat), MSG, Dairy, Allium (onion, garlic), Alcohol (nitrate), nightshade, capsaicin, "
+=== Ingredients ===,
+"Lobster Bodies, culled","Unit: pcs, Qty: 2.5, Prep: prepped,"
+"Lobster claws, steamed","Unit: pcs, Qty: 5.0, Prep: prepped"
+Lobster head,"Unit: pcs, Qty: 1.0, Prep: prepped"
+Garlic,"Unit: g, Qty: 50.0, Prep: prepped, sliced"
+Scallion Batons (greens),"Unit: g, Qty: 100.0, Prep: prepped"
+Ginger,"Unit: g, Qty: 50.0, Prep: prepped, julienne"
+Jalapeno,"Unit: g, Qty: 25.0, Prep: prepped, sliced"
+Sake,"Unit: oz, Qty: 3.0, Prep: Takara"
+Canto Sauce,"Unit: oz, Qty: 5.0, Prep: prepped"
+Lobster Butter,"Unit: g, Qty: 50.0, Prep: prepped"
+Cornstarch,"Unit: tt, Qty: 0.0, Prep: Argo"
+=== Steps ===,
+Step 1,Dredge the lobster tails in cornstarch and fry at ~350°F for ~3 minutes
+Step 2,Fry the head for ~15 seconds or until bright red
+Step 3,"In a preheated carbon steel skillet, saute the garlic, ginger and jalapeno first until fragrant"
+Step 4,"Add scallion, sautee."
+Step 5,Add the lobster tails and claws and cook for ~30 seconds or until pan comes back up to temp
+Step 6,"Deglaze with sake for ~45 seconds, then add the canto sauce."
+Step 7,Keep pan moving to prevent burning the aromatics and to coat the lobster
+Step 8,"Then add butter, allow to emulsify into sauce, then add water as needed to taste"
+Step 9,"Plate into the copper skillet, first the tails in a line, then claws sporadically"
+Step 10,"Cover with the sauced aromatics and sauce, then garnish last with the head over the bodies."
+Step 11,Serve immediately.

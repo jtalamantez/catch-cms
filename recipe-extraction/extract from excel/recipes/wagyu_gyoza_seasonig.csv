@@ -1,0 +1,38 @@
+Field,Value
+Recipe Name,Wagyu Gyoza Seasonig
+Implemented,2024-02-20 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~45 mins
+Dishes,Wagyu Gyoza
+Description,
+Equipment,"burner range, blast chiller"
+Kitchen Tools,"small and large sauce pots, rubber spatula, knife, cambro containers"
+Allergies,"Allium (Garlic, Onion), Dairy, Sesame (oil), Soy, Gluten (Wheat), Egg, Sulfites, Nightshade"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Butter, unsalted","Unit: gr, Batch x1: 300, Batch x2: 600, Batch x3: 900, Batch x4: 1200, Prep/Brand: Silver cow, unsalted"
+"Onion, spanish white","Unit: gr, Batch x1: 600, Batch x2: 1200, Batch x3: 1800, Batch x4: 2400, Prep/Brand: fresh"
+"Mushroom, Button","Unit: gr, Batch x1: 450, Batch x2: 900, Batch x3: 1350, Batch x4: 1800, Prep/Brand: fresh"
+Veal Stock,"Unit: gr, Batch x1: 900, Batch x2: 1800, Batch x3: 2700, Batch x4: 3600, Prep/Brand: prepped"
+"Salt, Kosher","Unit: gr, Batch x1: 45, Batch x2: 90, Batch x3: 135, Batch x4: 180, Prep/Brand: Diamond Crystal"
+"Spice, Black Peppercorn ground","Unit: gr, Batch x1: 15, Batch x2: 30, Batch x3: 45, Batch x4: 60, Prep/Brand: spice, dry"
+"Sauce, Fried Rice Soy","Unit: gr, Batch x1: 50, Batch x2: 100, Batch x3: 150, Batch x4: 200, Prep/Brand: prepped"
+Toasted Garlic,"Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: prepped"
+"Spice, Chicken Powder","Unit: gr, Batch x1: 90, Batch x2: 180, Batch x3: 270, Batch x4: 360, Prep/Brand: Knorr Chicken Flavor Broth Mix"
+"Sugar, granulated","Unit: gr, Batch x1: 60, Batch x2: 120, Batch x3: 180, Batch x4: 240, Prep/Brand: Domino"
+Ginger,"Unit: gr, Batch x1: 200, Batch x2: 400, Batch x3: 600, Batch x4: 800, Prep/Brand: fresh, peeled and minced"
+"Onion, Green (Scallion)","Unit: gr, Batch x1: 700, Batch x2: 1400, Batch x3: 2100, Batch x4: 2800, Prep/Brand: not negi, sliced"
+"Oil, Sesame","Unit: gr, Batch x1: 150, Batch x2: 300, Batch x3: 450, Batch x4: 600, Prep/Brand: Kadoya"
+=== Prep Steps ===,
+Step 1,"In a small sauce pot, reduce veal stock to 500g over a low-medium heat.  Remove from heat and reserve."
+Step 2,"In a large sauce pan, melt the butter then add onion and sweat until transluscent.  Lightly colored but not caramelized."
+Step 3,"Add mushrooms in and cook until soft, ~5 mins"
+Step 4,"Add in garlic, salt, chicken powder, sugar, soy, pepper, and veal stock.  Let cook and reduce to a wet paste."
+Step 5,"Add in ginger and scallion.  Remove from heat, then mix in the sesame oil."
+Step 6,Cool in blast chiller and store in qppropriate containers for use in Gyoza production.

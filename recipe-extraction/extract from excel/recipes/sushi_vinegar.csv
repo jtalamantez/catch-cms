@@ -1,0 +1,33 @@
+Field,Value
+Recipe Name,Sushi Vinegar
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,5 days
+Stations,various
+Prep Time,25 minutes
+Dishes,various
+Description,
+Equipment,large immersion blender
+Kitchen Tools,cambro containers
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Vinegar, Rice","Unit: gr, Batch x1: 10000, Batch x2: 20000, Batch x3: 30000, Batch x4: 40000, Prep/Brand: Mizkan Shiragiku"
+"Vinegar, Grain","Unit: gr, Batch x1: 5000, Batch x2: 10000, Batch x3: 15000, Batch x4: 20000, Prep/Brand: Mizkan Yusen"
+Mirin,"Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: Takara"
+"Sugar, Granulated","Unit: gr, Batch x1: 3600, Batch x2: 7200, Batch x3: 10800, Batch x4: 14400, Prep/Brand: Domino"
+"Salt, Kosher","Unit: gr, Batch x1: 1350, Batch x2: 2700, Batch x3: 4050, Batch x4: 5400, Prep/Brand: Diamond Crystal"
+"Ginger, crushed","Unit: gr, Batch x1: 450, Batch x2: 900, Batch x3: 1350, Batch x4: 1800, Prep/Brand: peeled, crushed"
+Dashi Konbu,"Unit: gr, Batch x1: 336, Batch x2: 672, Batch x3: 1008, Batch x4: 1344, Prep/Brand: Miyako (MTC)"
+=== Prep Steps ===,
+Step 1,"Combine all liquid ingredients, salt and sugar in a 22 quart cambro or otherwise appropriate container"
+Step 2,"Using a large immersion blender, combine ingredients until salt and sugar are dissolved"
+Step 3,Wipe Konbu sheets with a damp towel.
+Step 4,"Using the side of a large knife or bottom of a clean pan, crush the peeled ginger"
+Step 5,Add konbu and ginger to vinegar mixture.
+Step 6,Store at room temperature for 24 hours until use
+Step 7,"After 24 hours, store in a cooler environment to slow the steeping of the ginger and konbu."
+Step 8,"Strain vinegar before use, reserving the solids to continue steeping and providing depth of flavor."

@@ -1,0 +1,27 @@
+Field,Value
+Recipe Name,Mashed Potato - Lobster
+Implemented,2024-02-20 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~45 mins
+Dishes,Sautee Snapper
+Description,
+Equipment,"Hobart Mixer, combi oven, blast chiller, burner range"
+Kitchen Tools,"rubber spatula, sheet trays, 200 hotel pans"
+Allergies,"Allium, Nightshade, Shellfish (Lobster/Crustacean), Dairy"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Potato, Pellets","Unit: gr, Batch x1: 2500, Batch x2: 5000, Batch x3: 7500, Batch x4: 10000, Prep/Brand: Lutosa Potato Pellet"
+Lobster Cream,"Unit: gr, Batch x1: 340, Batch x2: 680, Batch x3: 1020, Batch x4: 1360, Prep/Brand: prepped"
+"Salt, Kosher","Unit: gr, Batch x1: 2, Batch x2: 4, Batch x3: 6, Batch x4: 8, Prep/Brand: Diamond Crystal"
+=== Prep Steps ===,
+Step 1,Reduce lobster cream by half in a small sauce pot over medium-low heat.
+Step 2,"In a 200 hotel pan, steam the potato pellets (perforated pan if in bag, regular pan and covered with plastic if out of bag)"
+Step 3,"In a hobart mixer with the whisk attachment, combine all ingredients on low speed."
+Step 4,"Once fully mixed, reserve to parchment lined sheet trays and cool in the blast chiller"
+Step 5,"Reserve to cooler on speed rack, uncovered, for service."

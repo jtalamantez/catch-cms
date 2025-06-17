@@ -1,0 +1,28 @@
+Field,Value
+Recipe Name,Aji Lime
+Implemented,2.14.24
+Created,2.10.24
+Shelf Life,3 days
+Stations,Sushi - Crudo
+Prep Time,10 minutes
+Dishes,Scallop Ceviche
+Description,
+Equipment,"Vita- Mix, juice press, storage containers"
+Kitchen Tools,"Vita-Mix, Juice press"
+Allergies,Capsacin
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+Aji Amarillo Paste,"Unit: gr, Batch x1: 50, Batch x2: 100, Batch x3: 150, Batch x4: 200, Prep/Brand: "
+"Lime Juice, Fresh","Unit: gr, Batch x1: 170, Batch x2: 340, Batch x3: 510, Batch x4: 680, Prep/Brand: "
+Salt,"Unit: gr, Batch x1: 20, Batch x2: 40, Batch x3: 60, Batch x4: 80, Prep/Brand: "
+Orange Juice,"Unit: gr, Batch x1: 300, Batch x2: 600, Batch x3: 900, Batch x4: 1200, Prep/Brand: "
+Agave,"Unit: gr, Batch x1: 50, Batch x2: 100, Batch x3: 150, Batch x4: 200, Prep/Brand: "
+Olive oil,"Unit: gr, Batch x1: 222, Batch x2: 444, Batch x3: 666, Batch x4: 888, Prep/Brand: "
+=== Prep Steps ===,
+Step 1,"Squeeze fresh Lime Juice, Add to vita-mix with remaining ingredients except olive oil."
+Step 2,Blend bringing up to high speed then slowly add olive oil.
+Step 3,Reduce speed once incorporated and store cold in deli containers.

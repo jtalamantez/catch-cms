@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { Units, Allergens } from '../utils/units';
 
 export const Recipes: CollectionConfig = {
   slug: 'recipes',
@@ -20,69 +21,70 @@ export const Recipes: CollectionConfig = {
       name: 'name',
       type: 'text',
       required: true,
+      unique: true,
     },
     {
-      name: 'dropPhrase',
-      type: 'text',
-      required: false,
-    },
-    {
-      name: 'method',
-      type: 'textarea',
-      required: false,
-    },
-    {
-      name: 'ingredients',
-      type: 'array', // Allows repeatable ingredient entries
-      fields: [
-        {
-          name: 'ingredient',
-          type: 'text',
-          required: true,
-        },
-        {
-          name: 'unit',
-          type: 'select',
-          options: ['g', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs', 'qt','tt'], // Customize as needed
-          required: true,
-        },
-        {
-          name: 'qty',
-          type: 'number',
-          required: false,
-        },
-        {
+        name: 'method',
+        label: 'Pick-up Steps',
+        type: 'textarea',
+        required: false,
+      },
+      {
+        name: 'plateBuild',
+        label: 'Plate Build',
+        type: 'textarea',
+        required: false,
+      },
+      {
+        name: 'ingredients',
+        type: 'array',
+        fields: [
+          {
+            name: 'ingredient',
+            type: 'text',
+            required: true,
+          },
+          {
+            name: 'unit',
+            type: 'select',
+            options: Units,
+            required: true,
+          },
+          {
+            name: 'qty',
+            type: 'number',
+            required: false,
+          },
+          {
             name: 'cuts-prep-brand',
             type: 'text',
             required: false,
           },
-        {
-          name: 'isSubRecipe',
-          type: 'checkbox',
-          label: 'Is this a sub-recipe?',
-          defaultValue: false,
-        },
-        {
-          name: 'linkedRecipe',
-          type: 'relationship',
-          relationTo: 'recipes',
-          label: 'Select sub-recipe',
-          admin: {
-            condition: (_, siblingData) => siblingData.isSubRecipe === true,
+          {
+            name: 'isSubRecipe',
+            type: 'checkbox',
+            label: 'Is this a sub-recipe?',
+            defaultValue: false,
           },
-        },
-      ],
+          {
+            name: 'linkedRecipe',
+            type: 'relationship',
+            relationTo: 'recipes',
+            label: 'Select sub-recipe',
+            admin: {
+              condition: (_, siblingData) => siblingData.isSubRecipe === true,
+            },
+          },
+        ],
+      },
+    {
+      name: 'implemented',
+      type: 'text',
+      required: false,
     },
     {
-      name: 'category',
-      type: 'select',
-      hasMany: true,
-
-      options: [
-        { label: '', value: '' }, // ✅ blank/default
-        { label: 'Dinner', value: 'dinner' },
-        { label: 'Brunch', value: 'brunch' },
-      ],
+      name: 'lastRevised',
+      type: 'date',
       required: false,
     },
     {
@@ -92,54 +94,65 @@ export const Recipes: CollectionConfig = {
     },
 
     {
-      name: 'shelfLife',
-      label: 'Shelf Life',
+      name: 'kitchen',
+      label: 'Kitchen',
       type: 'text',
+      required: false,
     },
-
     {
       name: 'stations',
       label: 'Station(s)',
       type: 'text',
     },
-
     {
-      name: 'equipment',
-      label: 'Equipment',
-      type: 'textarea',
-    },
-
-    {
-      name: 'kitchenTools',
-      label: 'Kitchen Tools',
-      type: 'textarea',
-    },
-    {
-      name: 'yield',
+      name: 'mealPeriod',
+      label: 'Meal Period',
       type: 'text',
       required: false,
     },
     {
-        name: 'allergens',
-        label: 'Allergies',
-        type: 'select',
-        hasMany: true,
-        options: [
-            { label: 'Gluten', value: 'gluten' },
-            { label: 'Dairy', value: 'dairy' },
-            { label: 'Eggs', value: 'eggs' },
-            { label: 'Fish', value: 'fish' },
-            { label: 'Shellfish', value: 'shellfish' },
-            { label: 'Soy', value: 'soy' },
-            { label: 'Peanuts', value: 'peanuts' },
-            { label: 'Tree Nuts', value: 'tree_nuts' },
-            { label: 'Sesame', value: 'sesame' },
-            { label: 'Allium (Garlic, Onion)', value: 'allium' },
-            { label: 'Pork', value: 'pork' },
-            { label: 'Alcohol', value: 'alcohol' },
-            { label: 'Ginger', value: 'ginger' },
-          ],
+      name: 'mealType',
+      label: 'Meal Type',
+      type: 'text',
+      required: false,
+    },
+    {
+      name: 'platingInstructions',
+      label: 'Plating Instructions',
+      type: 'textarea',
+      required: false,
+    },
+    {
+      name: 'plateType',
+      label: 'Plate Type',
+      type: 'text',
+      required: false,
+    },
+    {
+        name: 'utensils',
+        label: 'Utensils',
+        type: 'textarea',
+        required: false,
       },
+
+    {
+      name: 'category',
+      type: 'select',
+      hasMany: true,
+      options: [
+        { label: '', value: '' },
+        { label: 'Dinner', value: 'dinner' },
+        { label: 'Brunch', value: 'brunch' },
+      ],
+      required: false,
+    },
+    {
+      name: 'allergens',
+      label: 'Allergies',
+      type: 'select',
+      hasMany: true,
+      options: Allergens,
+    },
     {
       name: 'images',
       type: 'array',
@@ -148,7 +161,7 @@ export const Recipes: CollectionConfig = {
         {
           name: 'image',
           type: 'upload',
-          relationTo: 'media', // Connects to the media collection
+          relationTo: 'media',
           required: true,
         },
         {

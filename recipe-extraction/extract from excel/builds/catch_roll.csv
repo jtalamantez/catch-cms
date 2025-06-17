@@ -1,0 +1,32 @@
+Field,Value
+Recipe Name,Catch Roll
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Sushi
+Stations,maki
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,roll
+Preparation Time,3 minutes
+Plating Instructions,"staggered angled on plate with wasabi and gari, 6pc rice outside"
+Plate Type,catch plate
+Utensils,
+Allergies,"sesame, alcohol, finfish, shellfish, capsaicin, nightshade, mustard, allium (onion, garlic)"
+=== Ingredients ===,
+"nori, trimmed","Unit: ea, Qty: 1, Prep: 14cm length"
+sushi rice,"Unit: g, Qty: 70, Prep: prepped"
+"sesame seed mixed, toasted","Unit: g, Qty: 2, Prep: "
+salmon,"Unit: g, Qty: 40, Prep: "
+Takuan,"Unit: g, Qty: 10, Prep: "
+Miso Honey Vinaigrette,"Unit: g, Qty: 12, Prep: "
+"Chilis, Serranos","Unit: g, Qty: 1, Prep: "
+=== Steps ===,
+Step 1,"Spread sushi rice over nori, on the rough side, from edge to edge in an even thin layer"
+Step 2,Flipping the nori over (shiny side up) and spread crab and takuan evenly end to end
+Step 3,"Roll tightly together, keeping ingredients evenly spread out and each end filled"
+Step 4,"Add salmon slices over the top of the roll, apply a sheet of plastic wrap over the fish and roll"
+Step 5,Use a makisu (bamboo mat) to shape the maki with a light but firm press
+Step 6,Cut into five equal and straight pieces
+Step 7,"Plate each piece angled, with corners lined up, and garnish with ginger and wasabi to side"
+Step 8,Garnish the top of the roll with serranos and Miso Honey Vinaigrette
+Step 9,"Serve immediately, torch the serranos tableside."

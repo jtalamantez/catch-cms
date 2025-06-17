@@ -1,0 +1,25 @@
+Field,Value
+Recipe Name,Dynamite Sauce
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,5 days
+Stations,sushi
+Prep Time,~5 mins
+Dishes,Baked King Crab Hand Roll
+Description,
+Equipment,Vitamix Blender
+Kitchen Tools,"Rubber Spatula, Deli Containers"
+Allergies,"Capsaicin, Nightshade, Egg, Soy, Fin Fish"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1.5
+Recipe Yield (Batch x2),3
+Recipe Yield (Batch x3),4.5
+Recipe Yield (Batch x4),6
+=== Ingredients ===,
+"Mayo, Kewpie","Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: Kewpie (Tube) Red Label"
+Mirin,"Unit: gr, Batch x1: 220, Batch x2: 440, Batch x3: 660, Batch x4: 880, Prep/Brand: Takara"
+Ichimi Togarashi (Single Pepper),"Unit: gr, Batch x1: 7, Batch x2: 14, Batch x3: 21, Batch x4: 28, Prep/Brand: S&B"
+"Sugar, granulated","Unit: gr, Batch x1: 56, Batch x2: 112, Batch x3: 168, Batch x4: 224, Prep/Brand: Domino"
+=== Prep Steps ===,
+Step 1,Combine all ingredients in a vitamix blender and blend until smooth
+Step 2,Reserve in quart containers in the cooler.

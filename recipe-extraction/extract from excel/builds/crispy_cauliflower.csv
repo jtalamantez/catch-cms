@@ -1,0 +1,26 @@
+Field,Value
+Recipe Name,Crispy Cauliflower
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Pastry/Sushi/Haute
+Stations,Garde Manger
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,Appetizer
+Preparation Time,3 minutes
+Plating Instructions,"Cauliflower Plate, Bamboo Trapezoid"
+Plate Type,
+Utensils,
+Allergies,"Nightshade, Capsaicin, MSG, Allium (Garlic, Onion), Soy"
+=== Ingredients ===,
+Crispy Cauliflower,"Unit: oz, Qty: 4.0, Prep: "
+Vegan Spicy Mayo,"Unit: oz, Qty: 2.0, Prep: "
+Chive,"Unit: g, Qty: 1.0, Prep: "
+"Bamboo, trapezoid","Unit: nan, Qty: nan, Prep: "
+=== Steps ===,
+Step 1,"In a fryer preheated to ~350°F, drop cauliflower into fry basket and fry for 3-5 minutes"
+Step 2,"Once golden, cripsy, and heated thoroughly remove from fryer and drain excess oil"
+Step 3,Transfer to medium mixing bowl and toss with Vegan Spicy Mayo
+Step 4,Transfer to Caulilfower Plate lined with bamboo leaf trapezoid
+Step 5,Garnish with chives
+Step 6,Serve immediately

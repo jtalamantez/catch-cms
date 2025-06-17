@@ -1,0 +1,40 @@
+Field,Value
+Recipe Name,Veal Stock
+Implemented,2024-02-10 00:00:00
+Created,2024-02-10 00:00:00
+Shelf Life,5 days
+Stations,various
+Prep Time,~2 days
+Dishes,various
+Description,
+Equipment,"Tilt Skillet, convection oven"
+Kitchen Tools,"Chinois, sheet trays, rubber spatula, 
+cambro containers"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+Celery,"Unit: gr, Batch x1: 4500, Batch x2: 9000, Batch x3: 13500, Batch x4: 18000, Prep/Brand: rough chop"
+"Onion, white spanish","Unit: gr, Batch x1: 3000, Batch x2: 6000, Batch x3: 9000, Batch x4: 12000, Prep/Brand: rough chop"
+"Carrot, jumbo","Unit: gr, Batch x1: 2300, Batch x2: 4600, Batch x3: 6900, Batch x4: 9200, Prep/Brand: rough chop"
+Garlic,"Unit: gr, Batch x1: 300, Batch x2: 600, Batch x3: 900, Batch x4: 1200, Prep/Brand: fresh, cloves"
+"Herbs, Dry Bay Leaves","Unit: ea, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: herbs, dried"
+"Herbs, Thyme","Unit: gr, Batch x1: 50, Batch x2: 100, Batch x3: 150, Batch x4: 200, Prep/Brand: herbs, fresh"
+"Spice, Black Peppercorns Whole","Unit: gr, Batch x1: 300, Batch x2: 600, Batch x3: 900, Batch x4: 1200, Prep/Brand: spice, dried"
+"Wine, Red","Unit: gr, Batch x1: 4792, Batch x2: 9584, Batch x3: 14376, Batch x4: 19168, Prep/Brand: Vella boxed wine"
+Tomato Paste,"Unit: gr, Batch x1: 900, Batch x2: 1800, Batch x3: 2700, Batch x4: 3600, Prep/Brand: Heinz"
+"Veal Bones, thawed","Unit: lbs, Batch x1: 40, Batch x2: 80, Batch x3: 120, Batch x4: 160, Prep/Brand: "
+"Water, cold","Unit: gr, Batch x1: 20000, Batch x2: 40000, Batch x3: 60000, Batch x4: 80000, Prep/Brand: "
+=== Prep Steps ===,
+Step 1,"Preheat oven to ~450°F.  On sheet trays, spread out Carrot, onion, celery and garlic and dry roast, stir every ~10 minutes"
+Step 2,Remove from oven when evenly charred and just starting to blacken
+Step 3,"Rinse veal bones in cold water.  Remove excess water and place onto sheet trays, rubbing with the tomato paste"
+Step 4,"Roast in same oven for ~30-60 minutes, or until the bones have taken on some color and are caramelized"
+Step 5,"Remove veal bones from the pan and place into large stock pot or tilt skillet.  Deglaze sheet trays with wine, scrape fond."
+Step 6,"Add veggies, thyme and peppercorn to the deglazed veal bones and cover with water."
+Step 7,"Bring to a boil, then reduce heat to a low simmer.  Watch for 4-5 minutes to ensure simmer without overflow."
+Step 8,"Once simmer is confirmed, leave overnight."
+Step 9,"In the AM, strain and press veggies and bones for all liquid.  Reserve to cambro containers, straining x3 times."
+Step 10,"Cool in a blast chiller or ice bath, then store in cooler."

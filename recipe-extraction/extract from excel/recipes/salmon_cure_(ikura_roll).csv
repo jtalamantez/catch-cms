@@ -1,0 +1,30 @@
+Field,Value
+Recipe Name,Salmon Cure (Ikura Roll)
+Implemented,2023-10-28 00:00:00
+Created,
+Shelf Life,indefinite
+Stations,sushi
+Prep Time,5 mins
+Dishes,Salmon Ikura Roll
+Description,
+Equipment,
+Kitchen Tools,"mixing bowl, ziploc or vacuum bags"
+Allergies,"Finfish (Salmon), citrus"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Salt, Kosher","Unit: gr, Batch x1: 200.0, Batch x2: 400, Batch x3: 600.0, Batch x4: 800, Prep/Brand: Diamond Crystal"
+"Sugar, Granulated","Unit: gr, Batch x1: 200.0, Batch x2: 400, Batch x3: 600.0, Batch x4: 800, Prep/Brand: Domino"
+"Lemon, zest","Unit: gr, Batch x1: 2.0, Batch x2: 4, Batch x3: 6.0, Batch x4: 8, Prep/Brand: fresh, zested"
+"Orange, zest","Unit: gr, Batch x1: 0.5, Batch x2: 1, Batch x3: 1.5, Batch x4: 2, Prep/Brand: fresh, zested"
+=== Prep Steps ===,
+Step 1,"Mix salt, sugar, and both citrus zests in a mixing bowl and mix until homogenous"
+Step 2,"In a plastic ziplock bag, place salmon and enough cure mix to cover"
+Step 3,"Remove air from bag, place into a cooler for ~20mins (depending on size of saku)"
+Step 4,"Remove from bag and rinse salmon off, pat dry with sport towel"
+Step 5,Reserve for use in cooler
+Step 6,Optional: cut into 35g batons that fit across the width of a half sheet of nori (hosomaki style)
+Step 7,Reserve in cooler.

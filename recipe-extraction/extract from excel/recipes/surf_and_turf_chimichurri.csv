@@ -1,0 +1,38 @@
+Field,Value
+Recipe Name,Surf and Turf Chimichurri
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,3 days
+Stations,
+Prep Time,~10 mins
+Dishes,
+Description,
+Equipment,"Vitamix Blender, burner range or induction"
+Kitchen Tools,"Saute pan, rubber spatula, deli containers"
+Allergies,"Allium (onion, garlic), Cilantro, Gluten/Wheat, Soy, Citrus"
+Recipe Yield Unit,qt
+Recipe Yield (Batch x1),2
+Recipe Yield (Batch x2),4
+Recipe Yield (Batch x3),6
+Recipe Yield (Batch x4),8
+=== Ingredients ===,
+"Herbs, Cilantro","Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: herbs, fresh"
+"Herbs, Basil","Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: herbs, fresh"
+"Herbs, Parsley","Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: herbs, fresh"
+"Herbs, Chives","Unit: gr, Batch x1: 100, Batch x2: 200, Batch x3: 300, Batch x4: 400, Prep/Brand: herbs, fresh"
+"Herbs, Dill","Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: herbs, fresh"
+Shallots,"Unit: gr, Batch x1: 50, Batch x2: 100, Batch x3: 150, Batch x4: 200, Prep/Brand: fresh, chopped"
+Garlic,"Unit: gr, Batch x1: 50, Batch x2: 100, Batch x3: 150, Batch x4: 200, Prep/Brand: fresh, chopped"
+"Sugar, granulated","Unit: gr, Batch x1: 30, Batch x2: 60, Batch x3: 90, Batch x4: 120, Prep/Brand: Domino"
+"Salt, Kosher","Unit: gr, Batch x1: 15, Batch x2: 30, Batch x3: 45, Batch x4: 60, Prep/Brand: Diamond Crystal"
+"Lime Juice, fresh","Unit: gr, Batch x1: 20, Batch x2: 40, Batch x3: 60, Batch x4: 80, Prep/Brand: fresh, squeezed"
+Sushi Vinegar,"Unit: gr, Batch x1: 250, Batch x2: 500, Batch x3: 750, Batch x4: 1000, Prep/Brand: prepped"
+White Ponzu,"Unit: gr, Batch x1: 250, Batch x2: 500, Batch x3: 750, Batch x4: 1000, Prep/Brand: prepped"
+Grapeseed Oil,"Unit: gr, Batch x1: 250, Batch x2: 500, Batch x3: 750, Batch x4: 1000, Prep/Brand: Spoleto"
+Yuzu Juice,"Unit: gr, Batch x1: 120, Batch x2: 240, Batch x3: 360, Batch x4: 480, Prep/Brand: Muen Yuzuya (Green bottle)"
+=== Prep Steps ===,
+Step 1,"Saute shallots and garlic with enough EVOO to cook, over medium-low heat until soft and very light in colour."
+Step 2,"Remove from heat, add to vitamix blender with all ingredients except the Grapeseed Oil"
+Step 3,Blend on high until smooth
+Step 4,Slowly add the Grapeseed Oil to the running blender to emulsify into the sauce
+Step 5,"Adjust for seasoning, reserve in quart containers in the cooler."

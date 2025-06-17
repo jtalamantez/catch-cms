@@ -1,0 +1,30 @@
+Field,Value
+Recipe Name,Roasted Root Veg
+Implemented,2024-02-20 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~1.5 hours
+Dishes,Crispy Chicken
+Description,
+Equipment,"Blodget (convection oven), blast chiller"
+Kitchen Tools,"sheet trays, mixing bowl, hotel pans, knife"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Carrot, jumbo large","Unit: gr, Batch x1: 2270, Batch x2: 4540, Batch x3: 6810, Batch x4: 9080, Prep/Brand: peeled, cut oblique 1"""
+"Rutabega, jumbo large","Unit: gr, Batch x1: 2270, Batch x2: 4540, Batch x3: 6810, Batch x4: 9080, Prep/Brand: peeled, cut oblique 1"""
+"Parsnip, jumbo large","Unit: gr, Batch x1: 2270, Batch x2: 4540, Batch x3: 6810, Batch x4: 9080, Prep/Brand: peeled, cut oblique 1"""
+"Oil, Blended","Unit: tt, Batch x1: 0, Batch x2: 0, Batch x3: 0, Batch x4: 0, Prep/Brand: Spoleto"
+"Salt, Kosher","Unit: tt, Batch x1: 0, Batch x2: 0, Batch x3: 0, Batch x4: 0, Prep/Brand: Diamond Crystal"
+=== Prep Steps ===,
+Step 1,"Cut veg, reserving seperately."
+Step 2,Toss each veg with oil to coat and salt to lightly season
+Step 3,Fill sheet trays with each individual vegetable in a single layer with room between pieces.
+Step 4,"In a preheated convection oven set to ~400°F high fan, roast each tray for ~10 minutes rotating half way"
+Step 5,"Check for doneness using a fork or cake tester - should be tender throughout, but not soft (al dente)"
+Step 6,Reserve in blast chiller until cool.
+Step 7,"Toss together once cooled, reserve in hotel pans and store in cooler."

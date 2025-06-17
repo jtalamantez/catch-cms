@@ -1,0 +1,33 @@
+Field,Value
+Recipe Name,Aromatic Bacon
+Implemented,2024-02-20 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~30 mins
+Dishes,Brussel Sprouts
+Description,
+Equipment,"Burner range, blast chiller"
+Kitchen Tools,"Rondeau, knife, sheet trays, chinois strainer, 
+rubber spatula"
+Allergies,"Allium (Garlic, Onion), Pork"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Bacon, pre-sliced","Unit: lbs, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: Diced"
+"Herbs, dill","Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: herb, fresh, chopped"
+"Herbs, Tarragon","Unit: gr, Batch x1: 10, Batch x2: 20, Batch x3: 30, Batch x4: 40, Prep/Brand: herb, fresh, chopped"
+"Herb, Thyme","Unit: gr, Batch x1: 5, Batch x2: 10, Batch x3: 15, Batch x4: 20, Prep/Brand: herb, fresh, chopped"
+Toasted Garlic,"Unit: gr, Batch x1: 150, Batch x2: 300, Batch x3: 450, Batch x4: 600, Prep/Brand: prepped"
+Shallot,"Unit: gr, Batch x1: 520, Batch x2: 1040, Batch x3: 1560, Batch x4: 2080, Prep/Brand: minced"
+=== Prep Steps ===,
+Step 1,"In a rondeau over medium heat, render bacon until slightly crispy"
+Step 2,"Once rendered, add in shallots and thyme.  Allow to sweat"
+Step 3,"Once sweated, with shallots transluscent but not gaining colour, add toasted garlic and incorporate well."
+Step 4,Finish with dill and tarragon.  Remove from the heat.
+Step 5,"Strain the bacon mixture through a chinois fine mesh strainer, reserving bacon mixture to sheet tray lined with sport towel"
+Step 6,Allow to cool before reserving to quart containers and storing in cooler
+Step 7,Reserve bacon fat in quart containers and store in cooler.

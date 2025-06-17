@@ -1,0 +1,26 @@
+Field,Value
+Recipe Name,Tuna Jalapeno Roll
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Sushi
+Stations,maki
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,roll
+Preparation Time,3 minutes
+Plating Instructions,"staggered angled on plate with wasabi and gari, 6pc rice outside"
+Plate Type,catch plate
+Utensils,
+Allergies,"sesame, alcohol, capsacin, finfish"
+=== Ingredients ===,
+"nori, trimmed","Unit: ea, Qty: 1, Prep: "
+sushi rice,"Unit: g, Qty: 70, Prep: "
+"sesame seed mixed, toasted","Unit: g, Qty: 2, Prep: "
+"tuna, fresh","Unit: g, Qty: 70, Prep: "
+serrano,"Unit: g, Qty: 5, Prep: "
+=== Steps ===,
+Step 1,add rice to nori then sesame seed. turn nori over.
+Step 2,"inside, place cucumber jullian, roll to close."
+Step 3,"cut into six piece, place staggered and angled on catch plate w/ wasabi and gari"
+=== Plate Build ===,
+Step 1,place staggered and angled on catch plate w/ wasabi and gari

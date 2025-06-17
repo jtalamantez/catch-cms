@@ -1,0 +1,27 @@
+Field,Value
+Recipe Name,Guacamole
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,2 days
+Stations,various
+Prep Time,5 mins
+Dishes,Tartar Trio
+Description,
+Equipment,vitamix blender
+Kitchen Tools,"rubber spatula, deli containers"
+Allergies,"Stonefruit (avocado), Citrus"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+Avocado,"Unit: gr, Batch x1: 800, Batch x2: 1600, Batch x3: 2400, Batch x4: 3200, Prep/Brand: fresh"
+Sushi Vinegar,"Unit: gr, Batch x1: 40, Batch x2: 80, Batch x3: 120, Batch x4: 160, Prep/Brand: prpped"
+"Lime Juice, fresh","Unit: gr, Batch x1: 30, Batch x2: 60, Batch x3: 90, Batch x4: 120, Prep/Brand: fresh, squeezed"
+"Oil, Grapeseed","Unit: gr, Batch x1: 30, Batch x2: 60, Batch x3: 90, Batch x4: 120, Prep/Brand: Spoleto"
+"Salt, Kosher","Unit: gr, Batch x1: 15, Batch x2: 30, Batch x3: 45, Batch x4: 60, Prep/Brand: Diamond Crystal"
+=== Prep Steps ===,
+Step 1,"In a vitamix blender, combine all ingredients and blend until smooth and homogenous."
+Step 2,Reserve in quart containers
+Step 3,Store in the cooler.

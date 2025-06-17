@@ -1,0 +1,30 @@
+Field,Value
+Recipe Name,Baked King Crab Hand Roll
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Sushi
+Stations,maki
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,roll
+Preparation Time,3 minutes
+Plating Instructions,"staggered angled on plate with wasabi and gari, 6pc rice outside"
+Plate Type,catch plate
+Utensils,
+Allergies,"sesame, alcohol, finfish, shellfish, capsacin, (coconut depending on soy paper), soy"
+=== Ingredients ===,
+soy paper,"Unit: ea, Qty: 0.25, Prep: x2"
+sushi rice,"Unit: g, Qty: 8.0, Prep: x2"
+"sesame seed mixed, toasted","Unit: g, Qty: 2.0, Prep: x2"
+potato hash large cut,"Unit: g, Qty: 2.0, Prep: x2"
+King crab mix,"Unit: g, Qty: 18.0, Prep: x2"
+kani-kama,"Unit: pc, Qty: 0.5, Prep: x2"
+dynamite sauce,"Unit: g, Qty: 15.0, Prep: x2"
+=== Steps ===,
+Step 1,"place king crab mix, kani-kama on a foil sheet, cover in dynamite sauce"
+Step 2,bake until sauce is golden and crab is hot
+Step 3,"add sushi rice to nori strips, sesame side down, then add potato crispy"
+Step 4,place hot crab mix over rice and potatos then twist to close
+Step 5,"place staggered and angled over cut bamboo, cap ends with micro flowers"
+=== Plate Build ===,
+Step 1,"place staggered and angled over cut bamboo, cap ends with micro flowers"

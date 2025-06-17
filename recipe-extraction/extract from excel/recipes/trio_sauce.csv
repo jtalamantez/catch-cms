@@ -1,0 +1,23 @@
+Field,Value
+Recipe Name,Trio Sauce
+Implemented,2024-02-13 00:00:00
+Created,2024-02-13 00:00:00
+Shelf Life,5 days
+Stations,
+Prep Time,~5 mins
+Dishes,Tartar Trio
+Description,
+Equipment,vitamix blender
+Kitchen Tools,"deli containers, rubber spatlua"
+Allergies,"Fin Fish, Soy, Wheat / Gluten, Alcohol"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),3
+Recipe Yield (Batch x2),6
+Recipe Yield (Batch x3),9
+Recipe Yield (Batch x4),12
+=== Ingredients ===,
+White Ponzu,"Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: prepped"
+Yuzu Soy,"Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: prepped"
+=== Prep Steps ===,
+Step 1,"In a vitamix blender, combine ingredients and blend until homogenous."
+Step 2,Reserve in quart containers and store in the cooler.

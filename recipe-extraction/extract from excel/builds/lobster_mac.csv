@@ -1,0 +1,33 @@
+Field,Value
+Recipe Name,Lobster Mac
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Haute
+Stations,pasta
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,Appetizer
+Preparation Time,3 minutes
+Plating Instructions,"small copper round, B&B w/ liner"
+Plate Type,
+Utensils,spoon
+Allergies,"Shellfish (Crustacean), Dairy, Allium (onions, garlic), nightshade, soy, finfish, gluten (Wheat), "
+=== Ingredients ===,
+"Pasta, Macaroni","Unit: oz, Qty: 3.0, Prep: prepped"
+Lobster Cream Sauce,"Unit: oz, Qty: 4.0, Prep: prepped"
+"Lobster Meat, chopped and portioned","Unit: oz, Qty: 2.5, Prep: prepped, butchers"
+Marscapone,"Unit: g, Qty: 50.0, Prep: Belgiosso"
+"Salt, Kosher","Unit: tt, Qty: 0.0, Prep: Diamond Crystal"
+"Spice, Black Pepper Ground","Unit: tt, Qty: 0.0, Prep: "
+"Cheese, Parmesan Grated","Unit: g, Qty: 50.0, Prep: "
+Parmesan Crumbs,"Unit: g, Qty: 15.0, Prep: prepped"
+Chives,"Unit: g, Qty: 1.0, Prep: herbs, fresh, mince"
+"Cheese, Parmesan Grated","Unit: g, Qty: 5.0, Prep: "
+=== Steps ===,
+Step 1,"In an already hot saute skillet, add macaroni and warmed cream sauce"
+Step 2,Allow to reduce and cook together over medium-high heat until pasta is cooked
+Step 3,"Season with salt and pepper, and add parmesan (#7) and marscapone cheeses"
+Step 4,"Toss together until sauce has thickened, is coating pasta, and cheeses are mixed homogenous "
+Step 5,"Add lobster and mix, then reserve to warmed copper round tray"
+Step 6,"Garnish with Parmesan Crumbs, Chives, and Parmesan Cheese (#10)"
+Step 7,Serve immediately

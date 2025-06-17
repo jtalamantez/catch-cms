@@ -1,0 +1,29 @@
+Field,Value
+Recipe Name,Buerre Blanc Reduction
+Implemented,2024-02-10 00:00:00
+Created,2024-02-10 00:00:00
+Shelf Life,5 days
+Stations,saucier
+Prep Time,~35 mins
+Dishes,sauces
+Description,
+Equipment,Sauce pot
+Kitchen Tools,"Whisk, rubber spatula, deli containers, knife"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),2
+Recipe Yield (Batch x2),4
+Recipe Yield (Batch x3),6
+Recipe Yield (Batch x4),8
+=== Ingredients ===,
+Shallots,"Unit: gr, Batch x1: 300, Batch x2: 600, Batch x3: 900, Batch x4: 1200, Prep/Brand: fresh, sliced"
+"Wine, White","Unit: gr, Batch x1: 400, Batch x2: 800, Batch x3: 1200, Batch x4: 1600, Prep/Brand: Franzia, box wine"
+"Vinegar, Champagne","Unit: gr, Batch x1: 1200, Batch x2: 2400, Batch x3: 3600, Batch x4: 4800, Prep/Brand: "
+Garlic,"Unit: gr, Batch x1: 30, Batch x2: 60, Batch x3: 90, Batch x4: 120, Prep/Brand: fresh, smashed"
+"Spice, Black Peppercorn Whole","Unit: gr, Batch x1: 8, Batch x2: 16, Batch x3: 24, Batch x4: 32, Prep/Brand: spice, whole"
+"Herbs, Bay Leaf","Unit: gr, Batch x1: 3, Batch x2: 6, Batch x3: 9, Batch x4: 12, Prep/Brand: fresh, herb"
+"Herbs, Thyme","Unit: gr, Batch x1: 5, Batch x2: 10, Batch x3: 15, Batch x4: 20, Prep/Brand: fresh, sprigs"
+=== Prep Steps ===,
+Step 1,"In a sauce pot, bring all ingredients together to a boil then reduce heat to a simmer"
+Step 2,Reduce to half
+Step 3,Pass through a chinoise fine mesh strainer and reserve in quart containers
+Step 4,Store in cooler

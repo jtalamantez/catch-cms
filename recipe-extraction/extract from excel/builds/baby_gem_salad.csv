@@ -1,0 +1,32 @@
+Field,Value
+Recipe Name,Baby Gem Salad
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Pastry/Sushi/Haute
+Stations,Garde Manger
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,Appetizer
+Preparation Time,3 minutes
+Plating Instructions,salad plate
+Plate Type,
+Utensils,copper tongs
+Allergies,"Stonefruit (avocado), Citrus, Dairy, Mustard, Capsaicin, Nightshade, Sunflowers"
+=== Ingredients ===,
+"Baby Gem Romaine, cut and clean","Unit: g, Qty: 400.0, Prep: prepped"
+Lemon Parm Vinaigrette,"Unit: g, Qty: 56.0, Prep: prepped"
+"Asaparagus Spears, blanched","Unit: g, Qty: 56.0, Prep: prepped"
+"Avocado, medium dice","Unit: ea, Qty: 0.5, Prep: hause, fresh med dice"
+"Sugar Snap Peas, blanched","Unit: nan, Qty: 56.0, Prep: prepped"
+"Sunflower Seeds, toasted","Unit: nan, Qty: 28.0, Prep: prepped"
+Croutons,"Unit: pcs, Qty: 10.0, Prep: prepped"
+"Cheese, Pecorino","Unit: g, Qty: 14.0, Prep: shaved, fresh"
+"Salt, Kosher","Unit: g, Qty: 3.0, Prep: Diamond Crystal"
+=== Steps ===,
+Step 1,"In a large mixing bowl, toss baby gem lettuce with most of the vinaigrette and salt to taste"
+Step 2,Place the lettuce in the plate naturally
+Step 3,"In a smaller mixing bowl, toss each of the vegetables with some vinaigrette and salt"
+Step 4,"Add to lettuce in natural places, spreading ingredients around evenly"
+Step 5,"Add croutons and sunflower seeds, spreading around evenly"
+Step 6,Shave cheese over the the top with a microplace
+Step 7,Serve immediately

@@ -1,0 +1,27 @@
+Field,Value
+Recipe Name,Crispy Shrimp
+Implemented,01.01.24
+Last Revised,01.02.24
+Kitchen,Haute
+Stations,Fry
+Menu Type,Regular
+Meal Period,Nights
+Meal Type,Appetizer
+Preparation Time,3 minutes
+Plating Instructions,"glass bowl, bamboo leaf"
+Plate Type,
+Utensils,spoon
+Allergies,"Gluten (Wheat), Shellfish (Crustacean, Shrimp), Finfish Roe, Allium (onions), Eggs, Finfish, Capsaicin, MSG"
+=== Ingredients ===,
+Crispy Shrimp,"Unit: oz, Qty: 4.0, Prep: prepped"
+Spicy Mayo,"Unit: oz, Qty: 2.0, Prep: prepped"
+"Tobiko, red","Unit: gr, Qty: 1.0, Prep: "
+Chives,"Unit: gr, Qty: 1.0, Prep: prepped"
+"Bamboo, trapezoid cut","Unit: nan, Qty: nan, Prep: "
+=== Steps ===,
+Step 1,"in a fryer set to ~350°F, fry the crispy shrimp for 2-3 minutes until golden and heated thoroughly"
+Step 2,"Drain excess oil over the fryer, then transfer to a medium mixing bowl"
+Step 3,Add tobiko and spicy mayo and toss until shrimp is fully coated
+Step 4,Transfer to glass plate lined with bamboo on the top lip
+Step 5,Garnish with chives
+Step 6,Serve immediately

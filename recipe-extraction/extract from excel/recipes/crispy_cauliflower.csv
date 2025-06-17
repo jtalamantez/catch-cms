@@ -1,0 +1,33 @@
+Field,Value
+Recipe Name,Crispy Cauliflower
+Implemented,2023-10-28 00:00:00
+Created,
+Shelf Life,~5 days
+Stations,prep
+Prep Time,~45 mins
+Dishes,Crispy Cauliflower
+Description,
+Equipment,"Fryer, Fry baskets, Spider strainer"
+Kitchen Tools,"Sheet trays, lexan container, hotel pans, whisk, mixing bowls"
+Recipe Yield Unit,HP
+Recipe Yield (Batch x1),1
+Recipe Yield (Batch x2),2
+Recipe Yield (Batch x3),3
+Recipe Yield (Batch x4),4
+=== Ingredients ===,
+"Flour, GF","Unit: gr, Batch x1: 1000, Batch x2: 2000, Batch x3: 3000, Batch x4: 4000, Prep/Brand: Caputo"
+Corn Starch,"Unit: gr, Batch x1: 120, Batch x2: 240, Batch x3: 360, Batch x4: 480, Prep/Brand: Argo"
+Baking Powder,"Unit: gr, Batch x1: 60, Batch x2: 120, Batch x3: 180, Batch x4: 240, Prep/Brand: "
+"Sparkling Water, Cold","Unit: L, Batch x1: 2, Batch x2: 4, Batch x3: 6, Batch x4: 8, Prep/Brand: San Pelligrino"
+"Cauliflower, Florets (12 heads / case)","Unit: gr, Batch x1: 1500, Batch x2: 3000, Batch x3: 4500, Batch x4: 6000, Prep/Brand: "
+=== Prep Steps ===,
+Step 1,"Cut florets off of the cauliflower heads, around 1 inch size piece or bite size (similar to Crispy Shrimp sizes)"
+Step 2,"In a lexon, place batches of the cauliflower florets and some reserved excess GF flour"
+Step 3,Place lid over the lexan and shake the cauliflower and flour to coat as a dredge
+Step 4,"In a mixing bowl, combine all other ingredients to form batter.  Mix until homogenous"
+Step 5,Remove the coated cauliflower and batter and fry in a ~350°F fryer
+Step 6,Fry until lightly golden or yellow in colour on the batter.
+Step 7,Allow to drain excess oil in fryer basket while frying next batches
+Step 8,Reserve drained cauliflower to sheet tray to cool
+Step 9,Cool full sheet trays in blast chiller
+Step 10,Reserve to hotel pans in the cooler for service.

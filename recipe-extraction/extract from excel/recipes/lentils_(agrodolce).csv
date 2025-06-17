@@ -1,0 +1,28 @@
+Field,Value
+Recipe Name,Lentils (Agrodolce)
+Implemented,2023-10-28 00:00:00
+Created,
+Shelf Life,5 days
+Stations,prep
+Prep Time,~2 hours
+Dishes,Salmon Agrodolce
+Description,
+Equipment,"Burner Range, Blast Chiller"
+Kitchen Tools,Rondeau or small stock pot
+Allergies,"Shellfish, Citrus, Allium (Onion)"
+Recipe Yield Unit,QT
+Recipe Yield (Batch x1),1.5
+Recipe Yield (Batch x2),3
+Recipe Yield (Batch x3),4.5
+Recipe Yield (Batch x4),6
+=== Ingredients ===,
+"Lentils, ","Unit: gr, Batch x1: 415, Batch x2: 830, Batch x3: 1245, Batch x4: 1660, Prep/Brand: "
+Prawn Stock,"Unit: gr, Batch x1: 700, Batch x2: 1400, Batch x3: 2100, Batch x4: 2800, Prep/Brand: prepped"
+Water,"Unit: gr, Batch x1: 300, Batch x2: 600, Batch x3: 900, Batch x4: 1200, Prep/Brand: "
+=== Prep Steps ===,
+Step 1,Rinse lentils to clean off broken grains and excess starch
+Step 2,Combine all ingredients in a small stock pot or rondeau and cook over low heat for ~1-1.5 hours
+Step 3,"Cook to al dente, check before removing from heat."
+Step 4,"Cool in a hotel pan at room temperature, in a single layer."
+Step 5,"Once steam has left, reserve to blast chiller to fully cool down."
+Step 6,Reserve in quart containers in the cooler.
