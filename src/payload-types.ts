@@ -200,7 +200,7 @@ export interface Recipe {
         qty?: number | null;
         'cuts-prep-brand'?: string | null;
         isSubRecipe?: boolean | null;
-        linkedRecipe?: (number | null) | Recipe;
+        linkedRecipe?: (number | null) | RecipesPrep;
         id?: string | null;
       }[]
     | null;
@@ -304,7 +304,7 @@ export interface RecipesPrep {
         qty?: number | null;
         'cuts-prep-brand'?: string | null;
         isSubRecipe?: boolean | null;
-        linkedRecipe?: (number | null) | Recipe;
+        linkedRecipe?: (number | null) | RecipesPrep;
         id?: string | null;
       }[]
     | null;

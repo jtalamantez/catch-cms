@@ -70,7 +70,7 @@ export const RecipesPrep: CollectionConfig = {
         {
           name: 'linkedRecipe',
           type: 'relationship',
-          relationTo: 'recipes',
+          relationTo: 'recipes-prep',
           label: 'Select sub-recipe',
           admin: {
             condition: (_, siblingData) => siblingData.isSubRecipe === true,

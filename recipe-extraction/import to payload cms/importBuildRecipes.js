@@ -8,6 +8,7 @@ dotenv.config();
 
 
 const apiUrl = `http://192.168.86.250:3000/api/recipes`;
+const apiUrlPreps = `http://192.168.86.250:3000/api/recipes-prep`;
 
 
 // Load external allergen files
@@ -144,7 +145,9 @@ const importCSV = async (filePath) => {
         ingredient,
         unit: '',
         qty: 0,
-        "cuts-prep-brand": ''
+        "cuts-prep-brand": '',
+        linkedRecipe: null,
+        isSubRecipe: false
       };
       const unitMatch = value.match(/Unit:\s*([^,]+)/);
       const qtyMatch = value.match(/Qty:\s*([^,]+)/);
@@ -159,6 +162,29 @@ const importCSV = async (filePath) => {
             parsed.qty = 0; // Default qty to 0 if NaN
             parsed.unit = 'gr'; // Set unit to "gr"
         }
+
+        if (parsed.ingredient) {
+            const searchUrl = `${apiUrlPreps}?where[name][like]=${encodeURIComponent(parsed.ingredient)}`;
+            console.log(`🔍 Searching for linked recipe: ${searchUrl}`);
+            const res = await fetch(searchUrl, {
+              headers: {
+                Authorization: `users API-Key ${process.env.ADMIN_API_KEY}`,
+              },
+            });
+          
+            const data = await res.json();
+            const match = data?.docs?.[0];
+          
+            if (match?.id) {
+              parsed.linkedRecipe = match.id;
+                parsed.isSubRecipe = true; // Mark as a sub-recipe
+              console.log(`🔗🔗🔗 Linked "${parsed.ingredient}" to recipe ID: ${match.id}`);
+            }
+          }
+          
+
+
+
 
       recipe.ingredients.push(parsed);
 
@@ -256,4 +282,4 @@ const importSELECT_CSVsInFolder = async (folderPath) => {
   const recipesFolderPath = '../extract from excel/builds';
   importAllCSVsInFolder(recipesFolderPath);
 
-  //importCSV('oysters.csv');
+  //importCSV('blue_crab_avocado_roll.csv');
