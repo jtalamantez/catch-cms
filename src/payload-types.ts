@@ -146,7 +146,7 @@ export interface User {
  */
 export interface Media {
   id: number;
-  alt: string;
+  alt?: string | null;
   prefix?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -186,6 +186,7 @@ export interface Recipe {
           | 'tbsp'
           | 'cup'
           | 'pcs'
+          | 'pc'
           | 'qt'
           | 'tt'
           | 'bag'
@@ -290,6 +291,7 @@ export interface RecipesPrep {
           | 'tbsp'
           | 'cup'
           | 'pcs'
+          | 'pc'
           | 'qt'
           | 'tt'
           | 'bag'
@@ -331,6 +333,7 @@ export interface RecipesPrep {
           | 'tbsp'
           | 'cup'
           | 'pcs'
+          | 'pc'
           | 'qt'
           | 'tt'
           | 'bag'
@@ -403,6 +406,24 @@ export interface CocktailRecipe {
   name: string;
   method?: string | null;
   ingredients?:
+    | {
+        ingredient: string;
+        unit: '' | 'oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
+        qty: number;
+        isSubRecipe?: boolean | null;
+        linkedRecipe?:
+          | ({
+              relationTo: 'cocktail-prep-items';
+              value: number | CocktailPrepItem;
+            } | null)
+          | ({
+              relationTo: 'cocktail-batch-recipes';
+              value: number | CocktailBatchRecipe;
+            } | null);
+        id?: string | null;
+      }[]
+    | null;
+  ingredients_full?:
     | {
         ingredient: string;
         unit: '' | 'oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
@@ -695,6 +716,16 @@ export interface CocktailRecipesSelect<T extends boolean = true> {
   name?: T;
   method?: T;
   ingredients?:
+    | T
+    | {
+        ingredient?: T;
+        unit?: T;
+        qty?: T;
+        isSubRecipe?: T;
+        linkedRecipe?: T;
+        id?: T;
+      };
+  ingredients_full?:
     | T
     | {
         ingredient?: T;

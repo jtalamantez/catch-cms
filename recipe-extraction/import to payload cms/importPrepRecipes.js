@@ -11,8 +11,8 @@ const apiUrl = `http://192.168.86.250:3000/api/recipes-prep`;
 
 
 // Load external allergen files
-const standardAllergens = JSON.parse(fs.readFileSync('../recipes/standard_allergen.json', 'utf-8'));
-const allergenMap = JSON.parse(fs.readFileSync('../recipes/unique_allergens.json', 'utf-8'));
+const standardAllergens = JSON.parse(fs.readFileSync('../extract from excel/recipes/standard_allergen.json', 'utf-8'));
+const allergenMap = JSON.parse(fs.readFileSync('../extract from excel/recipes/unique_allergens.json', 'utf-8'));
 
 const manualAllergenMap = {
   'allium (garlic': 'Allium (Garlic, Onion)',
@@ -161,7 +161,7 @@ const importCSV = async (filePath) => {
 
   console.log(`📦 Uploading "${recipe.name}"...`);
 
-  console.log('Recipe:', recipe);
+  //console.log('Recipe:', recipe);
 
   
   try {
@@ -243,4 +243,4 @@ const importAllCSVsInFolder = async (folderPath) => {
   const recipesFolderPath = '../extract from excel/recipes';
   importAllCSVsInFolder(recipesFolderPath);
 
-  //importCSV('pasta.csv');
+  //importCSV('../extract from excel/garlic_chips.csv');

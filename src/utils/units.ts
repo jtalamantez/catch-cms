@@ -1,5 +1,5 @@
 // fields/shared/units.ts
-export const Units = ['gr', 'g', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs', 'qt','tt','bag','case','box','portion','hotel pan','order','pastry bags', 'hp', 'block'];
+export const Units = ['gr', 'g', 'oz', 'ea', 'lbs', 'kg', 'ml', 'l', 'tsp', 'gal', 'tbsp', 'cup', 'pcs', 'pc', 'qt','tt','bag','case','box','portion','hotel pan','order','pastry bags', 'hp', 'block'];
   
 // fields/shared/allergens.ts
 export const Allergens = [

@@ -1,6 +1,6 @@
 Field,Value
 Recipe Name,Garlic Chips
-Implemented,2024-02-20 00:00:00
+Implemented,2/20/24 0:00
 Created,
 Shelf Life,~5 days
 Stations,prep
@@ -17,7 +17,7 @@ Recipe Yield (Batch x2),
 Recipe Yield (Batch x3),
 Recipe Yield (Batch x4),
 === Ingredients ===,
-"Garlic, peeled whole","Unit: nan, Batch x1: nan, Batch x2: nan, Batch x3: nan, Batch x4: nan, Prep/Brand: thin sliced on mandoline"
+"Garlic, peeled whole","Unit: qt, Batch x1: 1, Batch x2: nan, Batch x3: nan, Batch x4: nan, Prep/Brand: thin sliced on mandoline"
 === Prep Steps ===,
 Step 1,"Slice the garlic on a mandoline as thin as possible, about 0.5mm"
 Step 2,"In a small pot, add garlic slices and cover with cold water.  Bring to a boil, then strain out water."
