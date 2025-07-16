@@ -64,10 +64,12 @@ export type SupportedTimezones =
 export interface Config {
   auth: {
     users: UserAuthOperations;
+    appUsers: AppUserAuthOperations;
   };
   blocks: {};
   collections: {
     users: User;
+    appUsers: AppUser;
     media: Media;
     recipes: Recipe;
     'recipes-prep': RecipesPrep;
@@ -81,6 +83,7 @@ export interface Config {
   collectionsJoins: {};
   collectionsSelect: {
     users: UsersSelect<false> | UsersSelect<true>;
+    appUsers: AppUsersSelect<false> | AppUsersSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
     recipes: RecipesSelect<false> | RecipesSelect<true>;
     'recipes-prep': RecipesPrepSelect<false> | RecipesPrepSelect<true>;
@@ -97,9 +100,13 @@ export interface Config {
   globals: {};
   globalsSelect: {};
   locale: null;
-  user: User & {
-    collection: 'users';
-  };
+  user:
+    | (User & {
+        collection: 'users';
+      })
+    | (AppUser & {
+        collection: 'appUsers';
+      });
   jobs: {
     tasks: unknown;
     workflows: unknown;
@@ -123,12 +130,49 @@ export interface UserAuthOperations {
     password: string;
   };
 }
+export interface AppUserAuthOperations {
+  forgotPassword: {
+    email: string;
+    password: string;
+  };
+  login: {
+    email: string;
+    password: string;
+  };
+  registerFirstUser: {
+    email: string;
+    password: string;
+  };
+  unlock: {
+    email: string;
+    password: string;
+  };
+}
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "users".
  */
 export interface User {
   id: number;
+  updatedAt: string;
+  createdAt: string;
+  email: string;
+  resetPasswordToken?: string | null;
+  resetPasswordExpiration?: string | null;
+  salt?: string | null;
+  hash?: string | null;
+  loginAttempts?: number | null;
+  lockUntil?: string | null;
+  password?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "appUsers".
+ */
+export interface AppUser {
+  id: number;
+  name: string;
+  role: ('foh' | 'boh' | 'bartender' | 'admin')[];
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -526,6 +570,10 @@ export interface PayloadLockedDocument {
         value: number | User;
       } | null)
     | ({
+        relationTo: 'appUsers';
+        value: number | AppUser;
+      } | null)
+    | ({
         relationTo: 'media';
         value: number | Media;
       } | null)
@@ -550,10 +598,15 @@ export interface PayloadLockedDocument {
         value: number | CocktailBatchRecipe;
       } | null);
   globalSlug?: string | null;
-  user: {
-    relationTo: 'users';
-    value: number | User;
-  };
+  user:
+    | {
+        relationTo: 'users';
+        value: number | User;
+      }
+    | {
+        relationTo: 'appUsers';
+        value: number | AppUser;
+      };
   updatedAt: string;
   createdAt: string;
 }
@@ -563,10 +616,15 @@ export interface PayloadLockedDocument {
  */
 export interface PayloadPreference {
   id: number;
-  user: {
-    relationTo: 'users';
-    value: number | User;
-  };
+  user:
+    | {
+        relationTo: 'users';
+        value: number | User;
+      }
+    | {
+        relationTo: 'appUsers';
+        value: number | AppUser;
+      };
   key?: string | null;
   value?:
     | {
@@ -596,6 +654,23 @@ export interface PayloadMigration {
  * via the `definition` "users_select".
  */
 export interface UsersSelect<T extends boolean = true> {
+  updatedAt?: T;
+  createdAt?: T;
+  email?: T;
+  resetPasswordToken?: T;
+  resetPasswordExpiration?: T;
+  salt?: T;
+  hash?: T;
+  loginAttempts?: T;
+  lockUntil?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "appUsers_select".
+ */
+export interface AppUsersSelect<T extends boolean = true> {
+  name?: T;
+  role?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;

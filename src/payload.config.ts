@@ -9,6 +9,8 @@ import { fileURLToPath } from 'url'
 import sharp from 'sharp'
 
 import { Users } from './collections/Users'
+import { AppUsers } from './collections/AppUsers'
+
 
 import { s3Storage } from '@payloadcms/storage-s3'
 import { Media } from './collections/Media'
@@ -30,7 +32,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Recipes, RecipesPrep,  CocktailRecipes, CocktailPrepItems, CocktailBatchItems],
+  collections: [Users, AppUsers, Media, Recipes, RecipesPrep,  CocktailRecipes, CocktailPrepItems, CocktailBatchItems],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
