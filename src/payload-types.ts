@@ -485,6 +485,45 @@ export interface CocktailRecipe {
         id?: string | null;
       }[]
     | null;
+  allergens?:
+    | (
+        | 'alcohol'
+        | 'allium'
+        | 'anchovy'
+        | 'ancient_grains'
+        | 'black_pepper'
+        | 'capsaicin'
+        | 'cilantro'
+        | 'cinnamon'
+        | 'citrus'
+        | 'dairy'
+        | 'eggs'
+        | 'fish'
+        | 'fish_roe'
+        | 'fryer_cc_issues'
+        | 'garlic'
+        | 'ginger'
+        | 'gluten'
+        | 'honey'
+        | 'msg'
+        | 'mollusk'
+        | 'mushroom'
+        | 'mustard'
+        | 'nightshade'
+        | 'onion'
+        | 'peanuts'
+        | 'pineapple'
+        | 'pork'
+        | 'seafood'
+        | 'sesame'
+        | 'shellfish'
+        | 'soy'
+        | 'stonefruit'
+        | 'sulfites'
+        | 'tree_nuts'
+        | 'wheat'
+      )[]
+    | null;
   yield?: string | null;
   ice?: string | null;
   garnish?: string | null;
@@ -810,6 +849,7 @@ export interface CocktailRecipesSelect<T extends boolean = true> {
         linkedRecipe?: T;
         id?: T;
       };
+  allergens?: T;
   yield?: T;
   ice?: T;
   garnish?: T;

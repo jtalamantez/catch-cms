@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { Units, Allergens } from '../utils/units';
 
 export const CocktailRecipes: CollectionConfig = {
   slug: "cocktail-recipes",
@@ -134,6 +135,13 @@ export const CocktailRecipes: CollectionConfig = {
             },        
         }  
         ],
+      },
+      {
+        name: 'allergens',
+        label: 'Allergies',
+        type: 'select',
+        hasMany: true,
+        options: Allergens,
       },
     {
         name: "yield",
