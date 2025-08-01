@@ -91,7 +91,11 @@ export const CocktailRecipes: CollectionConfig = {
           {
             name: "unit",
             type: "select",
-            options: [
+            options: 
+            //["","oz", "fl oz", "g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea", "splash", "dash", "drop", "quart"],
+            
+            
+            [
                 { label: "(none)", value: "" }, // this is the blank unit
                 { label: "oz", value: "oz" },
                 { label: "ml", value: "ml" },
@@ -104,6 +108,7 @@ export const CocktailRecipes: CollectionConfig = {
                 { label: "ea", value: "ea" }
 
               ],
+
             required: true,
           },
           {

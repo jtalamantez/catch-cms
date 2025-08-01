@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { BevUnits } from '../utils/bevUnits';
 
 export const CocktailBatchItems: CollectionConfig = {
   slug: "cocktail-batch-recipes",

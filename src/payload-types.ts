@@ -511,7 +511,7 @@ export interface CocktailPrepItem {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea';
+        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea' | 'quart';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?: (number | null) | CocktailPrepItem;

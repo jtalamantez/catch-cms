@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { BevUnits } from '../utils/bevUnits';
 
 export const CocktailPrepItems: CollectionConfig = {
   slug: "cocktail-prep-items",
@@ -38,7 +39,7 @@ export const CocktailPrepItems: CollectionConfig = {
         {
           name: "unit",
           type: "select",
-          options: ["g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea"], // Customize as needed
+          options: BevUnits,
           required: true,
         },
         {
