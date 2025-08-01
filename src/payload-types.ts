@@ -452,7 +452,7 @@ export interface CocktailRecipe {
   ingredients?:
     | {
         ingredient: string;
-        unit: '' | 'oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
+        unit: '' | 'oz' | 'fl_oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?:
@@ -470,7 +470,7 @@ export interface CocktailRecipe {
   ingredients_full?:
     | {
         ingredient: string;
-        unit: '' | 'oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
+        unit: '' | 'oz' | 'fl_oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?:
@@ -550,7 +550,7 @@ export interface CocktailPrepItem {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea' | 'quart';
+        unit: 'g' | 'oz' | 'fl_oz' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea' | 'quart';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?: (number | null) | CocktailPrepItem;

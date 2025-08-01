@@ -43,6 +43,7 @@ export const CocktailRecipes: CollectionConfig = {
             options: [
                 { label: "(none)", value: "" }, // this is the blank unit
                 { label: "oz", value: "oz" },
+                { label: "fl oz", value: "fl_oz" },
                 { label: "ml", value: "ml" },
                 { label: "dash", value: "dash" },
                 { label: "tsp", value: "tsp" },
@@ -99,6 +100,7 @@ export const CocktailRecipes: CollectionConfig = {
             [
                 { label: "(none)", value: "" }, // this is the blank unit
                 { label: "oz", value: "oz" },
+                { label: "fl oz", value: "fl_oz" },
                 { label: "ml", value: "ml" },
                 { label: "dash", value: "dash" },
                 { label: "tsp", value: "tsp" },
