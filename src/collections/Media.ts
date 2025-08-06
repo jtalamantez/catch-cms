@@ -36,8 +36,7 @@ export const Media: CollectionConfig = {
     },
     formatOptions: {
       format: 'webp', // this helps reduce file sizes significantly
-    },
-    maxFileSize: 5 * 1024 * 1024, // 5 MB
+    }
   }
 }
 

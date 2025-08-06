@@ -474,6 +474,7 @@ export interface RecipesPrep {
  */
 export interface CocktailRecipe {
   id: number;
+  archived?: boolean | null;
   name: string;
   method?: string | null;
   ingredients?:
@@ -565,6 +566,7 @@ export interface CocktailRecipe {
     | null;
   updatedAt: string;
   createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -887,6 +889,7 @@ export interface RecipesPrepSelect<T extends boolean = true> {
  * via the `definition` "cocktail-recipes_select".
  */
 export interface CocktailRecipesSelect<T extends boolean = true> {
+  archived?: T;
   name?: T;
   method?: T;
   ingredients?:
@@ -924,6 +927,7 @@ export interface CocktailRecipesSelect<T extends boolean = true> {
       };
   updatedAt?: T;
   createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

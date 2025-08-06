@@ -3,6 +3,9 @@ import { Units, Allergens } from '../utils/units';
 
 export const CocktailRecipes: CollectionConfig = {
   slug: "cocktail-recipes",
+  versions: {
+    drafts: true, // 👈 Enables draft/publish system
+  },
   labels: {
     singular: "Beverage - Cocktail Build",
     plural: "Beverage - Cocktail Builds",
@@ -17,6 +20,12 @@ export const CocktailRecipes: CollectionConfig = {
     delete: () => true,
   },
   fields: [
+    {
+        name: 'archived',
+        type: 'checkbox',
+        label: 'Archived (do not show in app)',
+        defaultValue: false,
+      },      
     {
       name: "name",
       type: "text",
