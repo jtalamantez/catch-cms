@@ -513,6 +513,21 @@ export interface CocktailRecipe {
         id?: string | null;
       }[]
     | null;
+  spirit?:
+    | (
+        | 'non_alcoholic'
+        | 'bourbon'
+        | 'gin'
+        | 'mezcal'
+        | 'rum'
+        | 'scotch'
+        | 'tequila'
+        | 'vermouth'
+        | 'vodka'
+        | 'whiskey'
+        | 'wine'
+      )[]
+    | null;
   allergens?:
     | (
         | 'alcohol'
@@ -912,6 +927,7 @@ export interface CocktailRecipesSelect<T extends boolean = true> {
         linkedRecipe?: T;
         id?: T;
       };
+  spirit?: T;
   allergens?: T;
   yield?: T;
   ice?: T;
