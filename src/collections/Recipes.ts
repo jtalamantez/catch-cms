@@ -137,6 +137,7 @@ export const Recipes: CollectionConfig = {
 
     {
       name: 'category',
+      label: 'App Category',
       type: 'select',
       hasMany: true,
       options: [
@@ -146,6 +147,24 @@ export const Recipes: CollectionConfig = {
       ],
       required: false,
     },
+    {
+        name: 'menuCategory',
+        label: 'Menu Category',
+        type: 'select',
+        options: [
+          { label: 'Snacks', value: 'snacks' },
+          { label: 'Salads', value: 'salads' },
+            { label: 'From Japan', value: 'japan' },
+            { label: 'Specialty Rolls', value: 'rolls' },
+            { label: 'Hot Starters', value: 'hot_starters' },
+            { label: 'Wagyu Hot Rock', value: 'hot_rock' },
+            { label: 'Steak', value: 'steak' },
+            { label: 'Seafood', value: 'seafood' },
+            { label: 'Sides', value: 'sides' },
+            { label: 'Desserts', value: 'desserts' },
+        ],
+        required: false,
+      },
     {
       name: 'allergens',
       label: 'Allergies',

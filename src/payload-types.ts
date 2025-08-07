@@ -287,6 +287,20 @@ export interface Recipe {
   plateType?: string | null;
   utensils?: string | null;
   category?: ('' | 'dinner' | 'brunch')[] | null;
+  menuCategory?:
+    | (
+        | 'snacks'
+        | 'salads'
+        | 'japan'
+        | 'rolls'
+        | 'hot_starters'
+        | 'hot_rock'
+        | 'steak'
+        | 'seafood'
+        | 'sides'
+        | 'desserts'
+      )
+    | null;
   allergens?:
     | (
         | 'alcohol'
@@ -846,6 +860,7 @@ export interface RecipesSelect<T extends boolean = true> {
   plateType?: T;
   utensils?: T;
   category?: T;
+  menuCategory?: T;
   allergens?: T;
   images?:
     | T
