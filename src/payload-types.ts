@@ -173,6 +173,7 @@ export interface AppUser {
   id: number;
   name: string;
   role: ('foh' | 'boh' | 'bartender' | 'admin')[];
+  stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -347,6 +348,7 @@ export interface Recipe {
         id?: string | null;
       }[]
     | null;
+  stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -768,6 +770,7 @@ export interface UsersSelect<T extends boolean = true> {
 export interface AppUsersSelect<T extends boolean = true> {
   name?: T;
   role?: T;
+  stores?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;
@@ -869,6 +872,7 @@ export interface RecipesSelect<T extends boolean = true> {
         caption?: T;
         id?: T;
       };
+  stores?: T;
   updatedAt?: T;
   createdAt?: T;
 }

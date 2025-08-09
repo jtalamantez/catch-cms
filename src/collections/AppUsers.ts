@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import {Stores} from '../utils/stores';
 
 export const AppUsers: CollectionConfig = {
     slug: 'appUsers',
@@ -31,5 +32,13 @@ export const AppUsers: CollectionConfig = {
             { label: 'Admin', value: 'admin' },
           ],
     },
+    {
+        name: 'stores',
+        label: 'Location',
+        type: 'select',
+        hasMany: true,
+        options: Stores,
+        required: false,
+      },
     ],
 }

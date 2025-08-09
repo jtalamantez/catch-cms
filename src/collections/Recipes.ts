@@ -1,5 +1,6 @@
 import type { CollectionConfig } from 'payload'
 import { Units, Allergens } from '../utils/units';
+import {Stores} from '../utils/stores';
 
 export const Recipes: CollectionConfig = {
   slug: 'recipes',
@@ -190,5 +191,13 @@ export const Recipes: CollectionConfig = {
         },
       ],
     },
+    {
+        name: 'stores',
+        label: 'Location',
+        type: 'select',
+        hasMany: true,
+        options: Stores,
+        required: false,
+      },
   ],
 }
