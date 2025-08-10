@@ -154,6 +154,8 @@ export interface AppUserAuthOperations {
  */
 export interface User {
   id: number;
+  name?: string | null;
+  roles?: ('admin' | 'manager' | 'chef' | 'foh' | 'staff')[] | null;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -349,6 +351,28 @@ export interface Recipe {
       }[]
     | null;
   stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;
+  /**
+   * Fields for FOH staff
+   */
+  foh?: {
+    description?: string | null;
+    dropline?: string | null;
+    components?:
+      | {
+          name: string;
+          ingredients: string;
+          id?: string | null;
+        }[]
+      | null;
+    ingredients?: {
+      protein?: string | null;
+      preparation?: string | null;
+      sauce?: string | null;
+      side?: string | null;
+      garnish?: string | null;
+    };
+    notes?: string | null;
+  };
   updatedAt: string;
   createdAt: string;
 }
@@ -753,6 +777,8 @@ export interface PayloadMigration {
  * via the `definition` "users_select".
  */
 export interface UsersSelect<T extends boolean = true> {
+  name?: T;
+  roles?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;
@@ -873,6 +899,29 @@ export interface RecipesSelect<T extends boolean = true> {
         id?: T;
       };
   stores?: T;
+  foh?:
+    | T
+    | {
+        description?: T;
+        dropline?: T;
+        components?:
+          | T
+          | {
+              name?: T;
+              ingredients?: T;
+              id?: T;
+            };
+        ingredients?:
+          | T
+          | {
+              protein?: T;
+              preparation?: T;
+              sauce?: T;
+              side?: T;
+              garnish?: T;
+            };
+        notes?: T;
+      };
   updatedAt?: T;
   createdAt?: T;
 }

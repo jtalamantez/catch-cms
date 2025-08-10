@@ -1,6 +1,20 @@
-import type { CollectionConfig } from 'payload'
+import type { CollectionConfig, FieldAccess } from 'payload'
 import { Units, Allergens } from '../utils/units';
 import {Stores} from '../utils/stores';
+
+// Only managers/admins can update FOH fields; everyone can read them
+
+const hasRole = (req: any, roles: string[]) =>
+    Array.isArray(req?.user?.roles) && req.user.roles.some((r: string) => roles.includes(r))
+
+
+const fohFieldAccess = {
+    read: () => true,
+    create: ({ req }) => hasRole(req, ['admin', 'manager']),
+    update: ({ req }) => hasRole(req, ['admin', 'manager']),
+    //update: () => false, // Allow all to update
+  } satisfies FieldAccess
+
 
 export const Recipes: CollectionConfig = {
   slug: 'recipes',
@@ -199,5 +213,89 @@ export const Recipes: CollectionConfig = {
         options: Stores,
         required: false,
       },
+      {
+        type: 'group',
+        name: 'foh',
+        label: 'FOH',
+        admin: {  description: 'Fields for FOH staff' },
+        fields: [
+            {
+                name: 'description',
+                type: 'textarea',
+                required: false,
+                access: fohFieldAccess,
+              },
+              {
+                name: 'dropline',
+                label: 'Dropline',
+                type: 'text',
+                required: false,
+                access: fohFieldAccess,
+              },
+              {
+                name: 'components',
+                label: 'Components',
+                type: 'array',
+                required: false,
+                access: fohFieldAccess,
+                fields: [
+                  {
+                    name: 'name',
+                    label: 'Component Name',
+                    type: 'text',
+                    required: true,
+                  },
+                  {
+                    name: 'ingredients',
+                    type: 'text',
+                    required: true,
+                  },
+                ]
+              },
+              {
+                name: 'ingredients',
+                label: 'Ingredients (PPSSG)',
+                type: 'group',
+                required: false,
+                access: fohFieldAccess,
+                fields: [
+                  {
+                    name: 'protein',
+                    type: 'text',
+                    required: false,
+                  },
+                    {
+                        name: 'preparation',
+                        type: 'text',
+                        required: false,
+                    },
+                    {
+                        name: 'sauce',
+                        label: 'seasonal veg',
+                        type: 'text',
+                        required: false,
+                    },
+                    {
+                        name: 'side',
+                        type: 'text',
+                        required: false,
+                    },
+                    {
+                        name: 'garnish',
+                        type: 'text',
+                        required: false,
+                    },
+                  
+                ]
+              },
+              {
+                name: 'notes',
+                type: 'textarea',
+                required: false,
+                access: fohFieldAccess,
+              },
+
+        ],
+      }
   ],
 }
