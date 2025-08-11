@@ -16,13 +16,13 @@ const fohFieldAccess: {
     update: FieldAccess;
   } = {
     read: () => true, // Allow everyone to read
-    create: ({ req }) => {
-      return req?.user?.roles?.includes('admin') || req?.user?.roles?.includes('manager');
-    },
-    update: ({ req }) => {
-      return req?.user?.roles?.includes('admin') || req?.user?.roles?.includes('manager');
-    },
+    create: ({ req }) => hasRole(req, ['admin', 'manager']),
+    update: ({ req }) => hasRole(req, ['admin', 'manager']),
   };
+
+
+
+
 
 export const Recipes: CollectionConfig = {
   slug: 'recipes',
