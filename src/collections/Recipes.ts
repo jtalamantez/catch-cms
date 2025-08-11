@@ -10,11 +10,19 @@ const hasRole = (req: any, roles: string[]) =>
 
 
 
-  const fohFieldAccess = {
-    create: ({ req }: { req: { user?: { roles?: string[] } } }) => hasRole(req, ['admin', 'manager']),
-    update: ({ req }: { req: { user?: { roles?: string[] } } }) => hasRole(req, ['admin', 'manager']),
+const fohFieldAccess: {
+    read: FieldAccess;
+    create: FieldAccess;
+    update: FieldAccess;
+  } = {
+    read: () => true, // Allow everyone to read
+    create: ({ req }) => {
+      return req?.user?.roles?.includes('admin') || req?.user?.roles?.includes('manager');
+    },
+    update: ({ req }) => {
+      return req?.user?.roles?.includes('admin') || req?.user?.roles?.includes('manager');
+    },
   };
-
 
 export const Recipes: CollectionConfig = {
   slug: 'recipes',
