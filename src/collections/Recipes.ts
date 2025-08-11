@@ -11,9 +11,8 @@ const hasRole = (req: any, roles: string[]) =>
 
 
   const fohFieldAccess = {
-    read:  ({ req }) => true,
-    create: ({ req }) => hasRole(req, ['admin', 'manager']),
-    update: ({ req }) => hasRole(req, ['admin', 'manager']),
+    create: ({ req }: { req: { user?: { roles?: string[] } } }) => hasRole(req, ['admin', 'manager']),
+    update: ({ req }: { req: { user?: { roles?: string[] } } }) => hasRole(req, ['admin', 'manager']),
   };
 
 
