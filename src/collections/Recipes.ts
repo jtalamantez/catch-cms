@@ -8,11 +8,13 @@ const hasRole = (req: any, roles: string[]) =>
     Array.isArray(req?.user?.roles) && req.user.roles.some((r: string) => roles.includes(r))
 
 
-const fohFieldAccess = {
+
+
+  const fohFieldAccess = {
+    read:  ({ req }) => true,
     create: ({ req }) => hasRole(req, ['admin', 'manager']),
     update: ({ req }) => hasRole(req, ['admin', 'manager']),
-    //update: () => false, // Allow all to update
-  } satisfies FieldAccess
+  };
 
 
 export const Recipes: CollectionConfig = {
