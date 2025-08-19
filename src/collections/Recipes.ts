@@ -15,9 +15,14 @@ const fohFieldAccess: {
     create: FieldAccess;
     update: FieldAccess;
   } = {
-    read: () => true, // Allow everyone to read
-    create: ({ req }) => hasRole(req, ['admin', 'manager']),
-    update: ({ req }) => hasRole(req, ['admin', 'manager']),
+    //read: () => true, // Allow everyone to read
+    //create: ({ req }) => hasRole(req, ['admin', 'manager']),
+    //update: ({ req }) => hasRole(req, ['admin', 'manager']),
+
+    create: () => true,
+    update: () => true,
+    read: () => true
+
   };
 
 
@@ -279,7 +284,7 @@ export const Recipes: CollectionConfig = {
                     },
                     {
                         name: 'sauce',
-                        label: 'seasonal veg',
+                        label: 'sauce',
                         type: 'text',
                         required: false,
                     },
@@ -295,6 +300,14 @@ export const Recipes: CollectionConfig = {
                     },
                   
                 ]
+              },
+              
+              {
+                name: 'miseEnPlace',
+                label: 'Mise en Place',
+                type: 'text',
+                required: false,
+                access: fohFieldAccess,
               },
               {
                 name: 'notes',

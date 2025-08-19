@@ -4,6 +4,10 @@ import {Stores} from '../utils/stores';
 export const AppUsers: CollectionConfig = {
     slug: 'appUsers',
     auth: true,
+    labels: {
+        singular: 'App User',
+        plural: 'App Users',
+    },
     access: {
       read: () => true,
     },
@@ -26,7 +30,8 @@ export const AppUsers: CollectionConfig = {
         hasMany: true, // ✅ allows multiple selections
         required: true,
         options: [
-            { label: 'FOH', value: 'foh' },
+            { label: 'Sales', value: 'foh' },
+            { label: 'Support', value: 'support' },
             { label: 'BOH', value: 'boh' },
             { label: 'Bartender', value: 'bartender' },
             { label: 'Admin', value: 'admin' },

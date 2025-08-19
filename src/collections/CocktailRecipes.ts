@@ -32,6 +32,17 @@ export const CocktailRecipes: CollectionConfig = {
       required: true,
     },
     {
+        name: "description",
+        type: "textarea",
+        required: false,
+      },
+      {
+        name: "short_description",
+        label: "Short Description",
+        type: "text",
+        required: false,
+      },
+    {
       name: "method",
       type: "textarea",
       required: false,
@@ -193,11 +204,7 @@ export const CocktailRecipes: CollectionConfig = {
         type: "text",
         required: false,
       },
-      {
-        name: "description",
-        type: "textarea",
-        required: false,
-      },
+
     {
         name: "images",
         type: "array",

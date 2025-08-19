@@ -5,7 +5,16 @@ export const Media: CollectionConfig = {
   access: {
     read: () => true,
   },
-  fields: [],
+  fields: [
+    {
+      name: 'title',
+      type: 'text',
+      label: 'Title',
+      admin: {
+        description: 'A descriptive title for the media item.',
+      },
+    }
+  ],
   admin: {
     description: 'Upload JPG, PNG, or WEBP files only. Max size: 5MB. For best results, upload under 1MB.'
   },

@@ -174,7 +174,7 @@ export interface User {
 export interface AppUser {
   id: number;
   name: string;
-  role: ('foh' | 'boh' | 'bartender' | 'admin')[];
+  role: ('foh' | 'support' | 'boh' | 'bartender' | 'admin')[];
   stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;
   updatedAt: string;
   createdAt: string;
@@ -195,6 +195,10 @@ export interface AppUser {
  */
 export interface Media {
   id: number;
+  /**
+   * A descriptive title for the media item.
+   */
+  title?: string | null;
   prefix?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -371,6 +375,7 @@ export interface Recipe {
       side?: string | null;
       garnish?: string | null;
     };
+    miseEnPlace?: string | null;
     notes?: string | null;
   };
   updatedAt: string;
@@ -516,6 +521,8 @@ export interface CocktailRecipe {
   id: number;
   archived?: boolean | null;
   name: string;
+  description?: string | null;
+  short_description?: string | null;
   method?: string | null;
   ingredients?:
     | {
@@ -611,7 +618,6 @@ export interface CocktailRecipe {
   ice?: string | null;
   garnish?: string | null;
   glassware?: string | null;
-  description?: string | null;
   images?:
     | {
         image: number | Media;
@@ -812,6 +818,7 @@ export interface AppUsersSelect<T extends boolean = true> {
  * via the `definition` "media_select".
  */
 export interface MediaSelect<T extends boolean = true> {
+  title?: T;
   prefix?: T;
   updatedAt?: T;
   createdAt?: T;
@@ -920,6 +927,7 @@ export interface RecipesSelect<T extends boolean = true> {
               side?: T;
               garnish?: T;
             };
+        miseEnPlace?: T;
         notes?: T;
       };
   updatedAt?: T;
@@ -974,6 +982,8 @@ export interface RecipesPrepSelect<T extends boolean = true> {
 export interface CocktailRecipesSelect<T extends boolean = true> {
   archived?: T;
   name?: T;
+  description?: T;
+  short_description?: T;
   method?: T;
   ingredients?:
     | T
@@ -1001,7 +1011,6 @@ export interface CocktailRecipesSelect<T extends boolean = true> {
   ice?: T;
   garnish?: T;
   glassware?: T;
-  description?: T;
   images?:
     | T
     | {
