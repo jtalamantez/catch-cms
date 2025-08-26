@@ -15,13 +15,16 @@ const fohFieldAccess: {
     create: FieldAccess;
     update: FieldAccess;
   } = {
-    //read: () => true, // Allow everyone to read
-    //create: ({ req }) => hasRole(req, ['admin', 'manager']),
-    //update: ({ req }) => hasRole(req, ['admin', 'manager']),
+    read: () => true, // Allow everyone to read
+    create: ({ req }) => hasRole(req, ['admin', 'manager']),
+    update: ({ req }) => hasRole(req, ['admin', 'manager']),
 
+    //Uncomment below when you are using NOde JS custom API to upload recipes
+    /*
     create: () => true,
     update: () => true,
     read: () => true
+    */
 
   };
 
@@ -45,6 +48,12 @@ export const Recipes: CollectionConfig = {
     delete: () => true,
   },
   fields: [
+    {
+        name: 'archived',
+        type: 'checkbox',
+        label: 'Archived (do not show in app)',
+        defaultValue: false,
+      },   
     {
       name: 'name',
       type: 'text',

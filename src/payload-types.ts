@@ -244,6 +244,7 @@ export interface Media {
  */
 export interface Recipe {
   id: number;
+  archived?: boolean | null;
   name: string;
   method?: string | null;
   plateBuild?: string | null;
@@ -871,6 +872,7 @@ export interface MediaSelect<T extends boolean = true> {
  * via the `definition` "recipes_select".
  */
 export interface RecipesSelect<T extends boolean = true> {
+  archived?: T;
   name?: T;
   method?: T;
   plateBuild?: T;
