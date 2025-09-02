@@ -568,6 +568,7 @@ export interface CocktailRecipe {
         | 'gin'
         | 'mezcal'
         | 'rum'
+        | 'rye'
         | 'scotch'
         | 'tequila'
         | 'vermouth'

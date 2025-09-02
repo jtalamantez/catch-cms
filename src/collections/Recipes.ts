@@ -299,6 +299,7 @@ export const Recipes: CollectionConfig = {
                     },
                     {
                         name: 'side',
+                        label: 'Side',
                         type: 'text',
                         required: false,
                     },

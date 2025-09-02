@@ -169,6 +169,7 @@ export const CocktailRecipes: CollectionConfig = {
             { "label": "Gin", "value": "gin" },
             { "label": "Mezcal", "value": "mezcal" },
             { "label": "Rum", "value": "rum" },
+            { "label": "Rye", "value": "rye" },
             { "label": "Scotch", "value": "scotch" },
             { "label": "Tequila", "value": "tequila" },
             { "label": "Vermouth", "value": "vermouth" },
