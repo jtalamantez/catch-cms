@@ -14,6 +14,7 @@ export const Allergens = [
     { "label": "Citrus", "value": "citrus" },
     { "label": "Dairy", "value": "dairy" },
     { "label": "Eggs", "value": "eggs" },
+    { "label": "Fin Fish", "value": "fin_fish" },
     { "label": "Fish", "value": "fish" },
     { "label": "Fish Roe", "value": "fish_roe" },
     { "label": "Fryer Cross Contact", "value": "fryer_cc_issues" },
@@ -21,6 +22,7 @@ export const Allergens = [
     { "label": "Ginger", "value": "ginger" },
     { "label": "Gluten", "value": "gluten" },
     { "label": "Honey", "value": "honey" },
+    { "label": "Legumes", "value": "legumes" },
     { "label": "MSG", "value": "msg" },
     { "label": "Mollusk", "value": "mollusk" },
     { "label": "Mushroom", "value": "mushroom" },
@@ -37,5 +39,6 @@ export const Allergens = [
     { "label": "Stonefruit", "value": "stonefruit" },
     { "label": "Sulfites", "value": "sulfites" },
     { "label": "Tree Nuts", "value": "tree_nuts" },
-    { "label": "Wheat", "value": "wheat" }
+    { "label": "Wheat", "value": "wheat" },
+    { "label": "Yeast", "value": "yeast" }
 ];
