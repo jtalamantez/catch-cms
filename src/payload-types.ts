@@ -322,6 +322,7 @@ export interface Recipe {
         | 'citrus'
         | 'dairy'
         | 'eggs'
+        | 'fin_fish'
         | 'fish'
         | 'fish_roe'
         | 'fryer_cc_issues'
@@ -329,6 +330,7 @@ export interface Recipe {
         | 'ginger'
         | 'gluten'
         | 'honey'
+        | 'legumes'
         | 'msg'
         | 'mollusk'
         | 'mushroom'
@@ -346,6 +348,7 @@ export interface Recipe {
         | 'sulfites'
         | 'tree_nuts'
         | 'wheat'
+        | 'yeast'
       )[]
     | null;
   images?:
@@ -478,6 +481,7 @@ export interface RecipesPrep {
         | 'citrus'
         | 'dairy'
         | 'eggs'
+        | 'fin_fish'
         | 'fish'
         | 'fish_roe'
         | 'fryer_cc_issues'
@@ -485,6 +489,7 @@ export interface RecipesPrep {
         | 'ginger'
         | 'gluten'
         | 'honey'
+        | 'legumes'
         | 'msg'
         | 'mollusk'
         | 'mushroom'
@@ -502,6 +507,7 @@ export interface RecipesPrep {
         | 'sulfites'
         | 'tree_nuts'
         | 'wheat'
+        | 'yeast'
       )[]
     | null;
   images?:
@@ -590,6 +596,7 @@ export interface CocktailRecipe {
         | 'citrus'
         | 'dairy'
         | 'eggs'
+        | 'fin_fish'
         | 'fish'
         | 'fish_roe'
         | 'fryer_cc_issues'
@@ -597,6 +604,7 @@ export interface CocktailRecipe {
         | 'ginger'
         | 'gluten'
         | 'honey'
+        | 'legumes'
         | 'msg'
         | 'mollusk'
         | 'mushroom'
@@ -614,6 +622,7 @@ export interface CocktailRecipe {
         | 'sulfites'
         | 'tree_nuts'
         | 'wheat'
+        | 'yeast'
       )[]
     | null;
   yield?: string | null;
