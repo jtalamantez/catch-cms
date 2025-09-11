@@ -174,7 +174,7 @@ export interface User {
 export interface AppUser {
   id: number;
   name: string;
-  role: ('foh' | 'support' | 'boh' | 'bartender' | 'admin')[];
+  role: ('foh' | 'server' | 'support' | 'boh' | 'admin')[];
   stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;
   updatedAt: string;
   createdAt: string;

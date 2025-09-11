@@ -30,10 +30,8 @@ export const AppUsers: CollectionConfig = {
         hasMany: true, // ✅ allows multiple selections
         required: true,
         options: [
-            { label: 'Bar', value: 'foh' },
+            { label: 'Bar', value: 'foh' }, //Formally sales
             { label: 'Server', value: 'server' },
-
-            { label: 'Sales', value: 'foh' }, //THIS WILL BEDELETED
             { label: 'Support', value: 'support' },
             { label: 'BOH', value: 'boh' },
             { label: 'Admin', value: 'admin' },
