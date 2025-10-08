@@ -39,7 +39,7 @@ export const CocktailBatchItems: CollectionConfig = {
         {
           name: "unit",
           type: "select",
-          options: ["g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea"], // Customize as needed
+          options: ["g", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea", "item"], // Customize as needed
           required: true,
         },
         {

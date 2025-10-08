@@ -71,7 +71,8 @@ export const CocktailRecipes: CollectionConfig = {
                 { label: "g", value: "g" },
                 { label: "drop", value: "drop" },
                 { label: "splash", value: "splash" },
-                { label: "ea", value: "ea" }
+                { label: "ea", value: "ea" },
+                { label: "item", value: "item" }
 
               ],
             required: true,
@@ -128,7 +129,8 @@ export const CocktailRecipes: CollectionConfig = {
                 { label: "g", value: "g" },
                 { label: "drop", value: "drop" },
                 { label: "splash", value: "splash" },
-                { label: "ea", value: "ea" }
+                { label: "ea", value: "ea" },
+                { label: "item", value: "item" }
 
               ],
 
