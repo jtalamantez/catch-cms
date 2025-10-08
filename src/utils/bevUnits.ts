@@ -17,5 +17,6 @@ export const BevUnitsExt = [
     { label: "pcs", value: "pcs" },
     { label: "cup", value: "cup" },
     { label: "ea", value: "ea" },
-    { label: "quart", value: "quart" }
+    { label: "quart", value: "quart" },
+    { label: "item", value: "item" }
 ]
