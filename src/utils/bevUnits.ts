@@ -1,5 +1,5 @@
 // fields/shared/units.ts
-export const BevUnits = ["g", "oz", "fl_oz", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea", "quart"]
+export const BevUnits = ["g", "oz", "fl_oz", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea", "quart", "item"]
 
 export const BevUnitsExt = [
     { label: "(none)", value: "" }, // this is the blank unit
