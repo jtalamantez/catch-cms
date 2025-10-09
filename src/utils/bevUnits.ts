@@ -2,7 +2,7 @@
 export const BevUnits = ["g", "oz", "fl_oz", "kg", "ml", "l", "tsp", "tbsp", "cup", "pcs", "ea", "quart", "item"]
 
 export const BevUnitsExt = [
-    { label: "(none)", value: "" }, // this is the blank unit
+    { label: "(none)", value: "" }, // this is the blank unit testing
     { label: "g", value: "g" },
     { label: "kg", value: "kg" },
     { label: "oz", value: "oz" },
