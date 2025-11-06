@@ -19,6 +19,12 @@ export const RecipesPrep: CollectionConfig = {
   },
   fields: [
     {
+        name: 'archived',
+        type: 'checkbox',
+        label: 'Archived (do not show in app)',
+        defaultValue: false,
+      },  
+    {
       name: 'name',
       type: 'text',
       required: true,

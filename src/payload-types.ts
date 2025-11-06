@@ -391,6 +391,7 @@ export interface Recipe {
  */
 export interface RecipesPrep {
   id: number;
+  archived?: boolean | null;
   name: string;
   dishes?: string | null;
   method?: string | null;
@@ -534,7 +535,7 @@ export interface CocktailRecipe {
   ingredients?:
     | {
         ingredient: string;
-        unit: '' | 'oz' | 'fl_oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
+        unit: '' | 'oz' | 'fl_oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea' | 'item';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?:
@@ -552,7 +553,7 @@ export interface CocktailRecipe {
   ingredients_full?:
     | {
         ingredient: string;
-        unit: '' | 'oz' | 'fl_oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea';
+        unit: '' | 'oz' | 'fl_oz' | 'ml' | 'dash' | 'tsp' | 'tbsp' | 'g' | 'drop' | 'splash' | 'ea' | 'item';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?:
@@ -651,7 +652,7 @@ export interface CocktailPrepItem {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'oz' | 'fl_oz' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea' | 'quart';
+        unit: 'g' | 'oz' | 'fl_oz' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea' | 'quart' | 'item';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?: (number | null) | CocktailPrepItem;
@@ -680,7 +681,7 @@ export interface CocktailBatchRecipe {
   ingredients?:
     | {
         ingredient: string;
-        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea';
+        unit: 'g' | 'kg' | 'ml' | 'l' | 'tsp' | 'tbsp' | 'cup' | 'pcs' | 'ea' | 'item';
         qty: number;
         isSubRecipe?: boolean | null;
         linkedRecipe?: (number | null) | CocktailPrepItem;
@@ -950,6 +951,7 @@ export interface RecipesSelect<T extends boolean = true> {
  * via the `definition` "recipes-prep_select".
  */
 export interface RecipesPrepSelect<T extends boolean = true> {
+  archived?: T;
   name?: T;
   dishes?: T;
   method?: T;
