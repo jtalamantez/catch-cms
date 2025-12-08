@@ -118,11 +118,18 @@ export const Recipes: CollectionConfig = {
       name: 'implemented',
       type: 'text',
       required: false,
+      admin: {
+        hidden: true,
+      }
+      
     },
     {
       name: 'lastRevised',
       type: 'date',
       required: false,
+      admin: {
+        hidden: true,
+      }
     },
     {
       name: 'prepTime',

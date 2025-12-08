@@ -173,6 +173,7 @@ export interface User {
  */
 export interface AppUser {
   id: number;
+  username: string;
   name: string;
   role: ('foh' | 'server' | 'support' | 'boh' | 'admin')[];
   stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;
@@ -812,6 +813,7 @@ export interface UsersSelect<T extends boolean = true> {
  * via the `definition` "appUsers_select".
  */
 export interface AppUsersSelect<T extends boolean = true> {
+  username?: T;
   name?: T;
   role?: T;
   stores?: T;

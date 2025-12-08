@@ -19,6 +19,12 @@ export const AppUsers: CollectionConfig = {
             unique: true,
           },
           {
+  name: 'username',
+  type: 'text',
+  unique: true,
+  required: true,
+},
+          {
             name: 'name',
             type: 'text',
             required: true,
