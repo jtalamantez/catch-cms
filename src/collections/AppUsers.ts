@@ -22,7 +22,7 @@ export const AppUsers: CollectionConfig = {
   name: 'username',
   type: 'text',
   unique: true,
-  required: true,
+  required: false,
 },
           {
             name: 'name',

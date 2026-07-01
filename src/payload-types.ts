@@ -173,7 +173,7 @@ export interface User {
  */
 export interface AppUser {
   id: number;
-  username: string;
+  username?: string | null;
   name: string;
   role: ('foh' | 'server' | 'support' | 'boh' | 'admin')[];
   stores?: ('casd' | 'camb' | 'cany' | 'cala' | 'csasp' | 'cadal')[] | null;

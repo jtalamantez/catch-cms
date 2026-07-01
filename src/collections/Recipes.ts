@@ -40,6 +40,12 @@ export const Recipes: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'name',
+    components: {
+      beforeListTable: ['@/components/RecipeListPrintButton#RecipeListPrintButton'],
+      edit: {
+        beforeDocumentControls: ['@/components/RecipeEditPrintButton#RecipeEditPrintButton'],
+      },
+    },
   },
   access: {
     read: () => true, // Publicly readable
